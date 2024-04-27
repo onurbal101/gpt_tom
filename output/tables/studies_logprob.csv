@@ -1,0 +1,413 @@
+study_id,model,custom_question_language_category,story_id,question_id,question_content,question_options,answer_correct,correct_answer_option,1_logprob,2_logprob,3_logprob,logprob_correct
+1,gpt-3.5-turbo-0125,English,1-EN,1_EN,She believes that the bag is full of {RESPONSE}.,"popcorn, chocolate",chocolate,2.0,-1.985468084,-0.1940940742,-10.39834595,-0.1940940742
+1,gpt-3.5-turbo-0125,English,1-EN,2_EN,She is delighted to have found this bag. She loves eating {RESPONSE}.,"popcorn, chocolate",chocolate,2.0,-2.8360419400000003,-0.1098455621,-10.862298200000001,-0.1098455621
+1,gpt-3.5-turbo-0125,English,1A-EN,1_EN,She believes that the bag is full of {RESPONSE}.,"popcorn, chocolate",popcorn,1.0,-2.023106871,-0.33253745970000004,-11.2449823,-2.023106871
+1,gpt-3.5-turbo-0125,English,1A-EN,2_EN,She is delighted to have found this bag. She loves eating {RESPONSE}.,"popcorn, chocolate",popcorn,1.0,-0.790239171,-0.7508913269999999,-11.21322145,-0.790239171
+1,gpt-3.5-turbo-0125,English,1B-EN,1_EN/1B,She believes that the bag is full of {RESPONSE}.,"popcorn, chocolate, uncertainty",uncertainty,3.0,-3.7951793699999996,-0.577438008,-0.9602867419999999,-0.9602867419999999
+1,gpt-3.5-turbo-0125,English,1B-EN,2_EN/1B,She is delighted to have found this bag. She loves eating {RESPONSE}.,"popcorn, chocolate, uncertainty",uncertainty,3.0,-3.80579068,-0.135444393,-2.3093259,-2.3093259
+1,gpt-3.5-turbo-0125,English,1C-EN,1_EN,She believes that the bag is full of {RESPONSE}.,"popcorn, chocolate",popcorn,1.0,-2.00211507,-0.1684755055,-10.5904299,-2.00211507
+1,gpt-3.5-turbo-0125,English,1C-EN,2_EN,She is delighted to have found this bag. She loves eating {RESPONSE}.,"popcorn, chocolate",popcorn,1.0,-3.5209518600000003,-0.0342902477,-11.0536641,-3.5209518600000003
+1,gpt-3.5-turbo-0125,English,1D-EN,1_EN,She believes that the bag is full of {RESPONSE}.,"popcorn, chocolate",popcorn,1.0,-0.02031016049,-4.08000363,-12.3638054,-0.02031016049
+1,gpt-3.5-turbo-0125,English,1D-EN,2_EN,She is delighted to have found this bag. She loves eating {RESPONSE}.,"popcorn, chocolate",popcorn,1.0,-0.1172749659,-2.84817608,-11.565005000000001,-0.1172749659
+1,gpt-3.5-turbo-0125,English,2-EN,5_EN,John thinks that the cat is in the {RESPONSE}.,"box, basket",basket,2.0,-0.547941947,-0.870369133,-10.9271687,-0.870369133
+1,gpt-3.5-turbo-0125,English,2-EN,6_EN,John will look for the cat in the {RESPONSE}.,"box, basket",basket,2.0,-0.31976527,-1.39055365,-11.5023953,-1.39055365
+1,gpt-3.5-turbo-0125,English,2A-EN,5_EN/2A,John thinks that the cat is in the {RESPONSE}.,"box, chest",box,1.0,-0.848839331,-0.605875713,-10.41769585,-0.848839331
+1,gpt-3.5-turbo-0125,English,2A-EN,6_EN/2A,John will look for the cat in the {RESPONSE}.,"box, chest",box,1.0,-0.782656146,-0.6278780549999999,-10.9906603,-0.782656146
+1,gpt-3.5-turbo-0125,English,2B-EN,5_EN/2B,John thinks that the cat is on the {RESPONSE}.,"box, basket",box,1.0,-1.18674016,-0.372032982,-10.449462,-1.18674016
+1,gpt-3.5-turbo-0125,English,2B-EN,6_EN/2B,John will look for the cat on the {RESPONSE}.,"box, basket",box,1.0,-0.496759823,-0.947840326,-11.3471554,-0.496759823
+1,gpt-3.5-turbo-0125,English,2C-EN,5_EN,John thinks that the cat is in the {RESPONSE}.,"box, basket",box,1.0,-0.613303744,-0.8149820160000001,-11.08241,-0.613303744
+1,gpt-3.5-turbo-0125,English,2C-EN,6_EN,John will look for the cat in the {RESPONSE}.,"box, basket",box,1.0,-0.9083645560000001,-0.550520978,-10.83741595,-0.9083645560000001
+1,gpt-3.5-turbo-0125,English,2D-EN,5_EN/2D,Mark thinks that the cat is in the {RESPONSE}.,"box, basket",box,1.0,-0.46548243300000003,-1.018689629,-10.5570466,-0.46548243300000003
+1,gpt-3.5-turbo-0125,English,2D-EN,6_EN/2D,Mark will look for the cat in the {RESPONSE}.,"box, basket",box,1.0,-0.420105858,-1.272301792,-11.4504042,-0.420105858
+1,gpt-3.5-turbo-0125,Turkish,1-TR,1_TR-1,Ezgi torbanın {CEVAP} dolu olduğuna inanıyor.,"patlamış mısır, çikolata",çikolata,2.0,-1.24207134,-0.379246311,-8.61068133,-0.379246311
+1,gpt-3.5-turbo-0125,Turkish,1-TR,2_TR,Ezgi bu torbayı bulduğu için çok mutlu. O {CEVAP} yemeyi çok sever.,"patlamış mısır, çikolata",çikolata,2.0,-1.45026262,-0.301293758,-8.8193085,-0.301293758
+1,gpt-3.5-turbo-0125,Turkish,1A-TR,1_TR-1,Ezgi torbanın {CEVAP} dolu olduğuna inanıyor.,"patlamış mısır, çikolata",patlamış mısır,1.0,-1.00913039,-0.489146739,-8.17019062,-1.00913039
+1,gpt-3.5-turbo-0125,Turkish,1A-TR,2_TR,Ezgi bu torbayı bulduğu için çok mutlu. O {CEVAP} yemeyi çok sever.,"patlamış mısır, çikolata",patlamış mısır,1.0,-2.73562468,-0.1450404852,-8.89177655,-2.73562468
+1,gpt-3.5-turbo-0125,Turkish,1B-TR,1_TR-1/1B,Ezgi torbanın {CEVAP} dolu olduğuna inanıyor.,"patlamış mısır, çikolata, belirsizlik",belirsizlik,3.0,-2.78145005,-0.1025090985,-3.5767648299999997,-3.5767648299999997
+1,gpt-3.5-turbo-0125,Turkish,1B-TR,2_TR/1B,Ezgi bu torbayı bulduğu için çok mutlu. O {CEVAP} yemeyi çok sever.,"patlamış mısır, çikolata, belirsizlik",belirsizlik,3.0,-3.53397323,-0.044016783000000004,-5.04076605,-5.04076605
+1,gpt-3.5-turbo-0125,Turkish,1C-TR,1_TR-1,Ezgi torbanın {CEVAP} dolu olduğuna inanıyor.,"patlamış mısır, çikolata",patlamış mısır,1.0,-0.347397886,-1.3098587800000001,-8.995002549999999,-0.347397886
+1,gpt-3.5-turbo-0125,Turkish,1C-TR,2_TR,Ezgi bu torbayı bulduğu için çok mutlu. O {CEVAP} yemeyi çok sever.,"patlamış mısır, çikolata",patlamış mısır,1.0,-4.55053602,-0.02364356123,-10.82718505,-4.55053602
+1,gpt-3.5-turbo-0125,Turkish,1D-TR,1_TR-1,Ezgi torbanın {CEVAP} dolu olduğuna inanıyor.,"patlamış mısır, çikolata",patlamış mısır,1.0,-1.1522527740000001,-0.396237994,-7.227985630000001,-1.1522527740000001
+1,gpt-3.5-turbo-0125,Turkish,1D-TR,2_TR,Ezgi bu torbayı bulduğu için çok mutlu. O {CEVAP} yemeyi çok sever.,"patlamış mısır, çikolata",patlamış mısır,1.0,-2.110265627,-0.199676842,-8.161389699999999,-2.110265627
+1,gpt-3.5-turbo-0125,Turkish,2-TR,5_TR-1,Can kedinin {CEVAP} içinde olduğunu düşünüyor.,"kutunun, sepetin",sepetin,2.0,-1.2033421800000002,-0.369136941,-7.052156309999999,-0.369136941
+1,gpt-3.5-turbo-0125,Turkish,2-TR,6_TR,Can kediyi {CEVAP} içinde arayacak.,"kutunun, sepetin",sepetin,2.0,-0.587419772,-0.949531644,-8.12094063,-0.949531644
+1,gpt-3.5-turbo-0125,Turkish,2A-TR,5_TR-1/2A,Can kedinin {CEVAP} içinde olduğunu düşünüyor.,"kutunun, sandığın",kutunun,1.0,-1.05559043,-0.448451804,-5.234559760000001,-1.05559043
+1,gpt-3.5-turbo-0125,Turkish,2A-TR,6_TR/2A,Can kediyi {CEVAP} içinde arayacak.,"kutunun, sandığın",kutunun,1.0,-0.740169668,-0.668753575,-7.71749116,-0.740169668
+1,gpt-3.5-turbo-0125,Turkish,2B-TR,5_TR-1/2B,Can kedinin {CEVAP} üstünde olduğunu düşünüyor.,"kutunun, sepetin",kutunun,1.0,-1.14763415,-0.39218928000000003,-6.45980809,-1.14763415
+1,gpt-3.5-turbo-0125,Turkish,2B-TR,6_TR/2B,Can kediyi {CEVAP} üstünde arayacak.,"kutunun, sepetin",kutunun,1.0,-0.544316911,-1.062023374,-7.772247300000001,-0.544316911
+1,gpt-3.5-turbo-0125,Turkish,2C-TR,5_TR-1,Can kedinin {CEVAP} içinde olduğunu düşünüyor.,"kutunun, sepetin",kutunun,1.0,-0.83444223,-0.584137441,-7.40478432,-0.83444223
+1,gpt-3.5-turbo-0125,Turkish,2C-TR,6_TR,Can kediyi {CEVAP} içinde arayacak.,"kutunun, sepetin",kutunun,1.0,-0.24977041399999997,-1.68243281,-8.321663840000001,-0.24977041399999997
+1,gpt-3.5-turbo-0125,Turkish,2D-TR,5_TR-1/2D,Mehmet kedinin {CEVAP} içinde olduğunu düşünüyor.,"kutunun, sepetin",kutunun,1.0,-1.10416434,-0.411649159,-6.955551509999999,-1.10416434
+1,gpt-3.5-turbo-0125,Turkish,2D-TR,6_TR/2D,Mehmet kediyi {CEVAP} içinde arayacak.,"kutunun, sepetin",kutunun,1.0,-0.540113823,-0.9036138470000001,-8.7514421,-0.540113823
+1,gpt-3.5-turbo-0125,Turkish-san,1-TR,1_TR-3,Ezgi torbanın {CEVAP} dolu olduğunu sanıyor.,"patlamış mısır, çikolata",çikolata,2.0,-0.9141819330000001,-0.546968876,-7.83610896,-0.546968876
+1,gpt-3.5-turbo-0125,Turkish-san,1A-TR,1_TR-3,Ezgi torbanın {CEVAP} dolu olduğunu sanıyor.,"patlamış mısır, çikolata",patlamış mısır,1.0,-0.7734723,-0.6505572159999999,-7.8078018,-0.7734723
+1,gpt-3.5-turbo-0125,Turkish-san,1B-TR,1_TR-3/1B,Ezgi torbanın {CEVAP} dolu olduğunu sanıyor.,"patlamış mısır, çikolata, belirsizlik",belirsizlik,3.0,-2.83612683,-0.0974580063,-3.5846173300000004,-3.5846173300000004
+1,gpt-3.5-turbo-0125,Turkish-san,1C-TR,1_TR-3,Ezgi torbanın {CEVAP} dolu olduğunu sanıyor.,"patlamış mısır, çikolata",patlamış mısır,1.0,-0.443982228,-1.072574914,-9.0798199,-0.443982228
+1,gpt-3.5-turbo-0125,Turkish-san,1D-TR,1_TR-3,Ezgi torbanın {CEVAP} dolu olduğunu sanıyor.,"patlamış mısır, çikolata",patlamış mısır,1.0,-1.050970103,-0.4732609,-7.598395890000001,-1.050970103
+1,gpt-3.5-turbo-0125,Turkish-san,2-TR,5_TR-3,Can kedinin {CEVAP} içinde olduğunu sanıyor.,"kutunun, sepetin",sepetin,2.0,-1.14857572,-0.39382506500000003,-6.94408857,-0.39382506500000003
+1,gpt-3.5-turbo-0125,Turkish-san,2A-TR,5_TR-3/2A,Can kedinin {CEVAP} içinde olduğunu sanıyor.,"kutunun, sandığın",kutunun,1.0,-0.9020084669999999,-0.5533701129999999,-5.00578499,-0.9020084669999999
+1,gpt-3.5-turbo-0125,Turkish-san,2B-TR,5_TR-3/2B,Can kedinin {CEVAP} üstünde olduğunu sanıyor.,"kutunun, sepetin",kutunun,1.0,-1.17242003,-0.382399283,-6.53726969,-1.17242003
+1,gpt-3.5-turbo-0125,Turkish-san,2C-TR,5_TR-3,Can kedinin {CEVAP} içinde olduğunu sanıyor.,"kutunun, sepetin",kutunun,1.0,-0.821219219,-0.5914172790000001,-7.184516480000001,-0.821219219
+1,gpt-3.5-turbo-0125,Turkish-san,2D-TR,5_TR-3/2D,Mehmet kedinin {CEVAP} içinde olduğunu sanıyor.,"kutunun, sepetin",kutunun,1.0,-0.900436271,-0.532564795,-6.774314110000001,-0.900436271
+1,gpt-3.5-turbo-0125,Turkish-zan,1-TR,1_TR-2,Ezgi torbanın {CEVAP} dolu olduğunu zannediyor.,"patlamış mısır, çikolata",çikolata,2.0,-1.0200796,-0.481784998,-7.70375659,-0.481784998
+1,gpt-3.5-turbo-0125,Turkish-zan,1A-TR,1_TR-2,Ezgi torbanın {CEVAP} dolu olduğunu zannediyor.,"patlamış mısır, çikolata",patlamış mısır,1.0,-0.79960195,-0.670038809,-8.13064126,-0.79960195
+1,gpt-3.5-turbo-0125,Turkish-zan,1B-TR,1_TR-2/1B,Ezgi torbanın {CEVAP} dolu olduğunu zannediyor.,"patlamış mısır, çikolata, belirsizlik",belirsizlik,3.0,-2.8284597600000003,-0.0962877823,-3.76843858,-3.76843858
+1,gpt-3.5-turbo-0125,Turkish-zan,1C-TR,1_TR-2,Ezgi torbanın {CEVAP} dolu olduğunu zannediyor.,"patlamış mısır, çikolata",patlamış mısır,1.0,-0.598410088,-0.8436934060000001,-8.60001675,-0.598410088
+1,gpt-3.5-turbo-0125,Turkish-zan,1D-TR,1_TR-2,Ezgi torbanın {CEVAP} dolu olduğunu zannediyor.,"patlamış mısır, çikolata",patlamış mısır,1.0,-1.43483895,-0.294671171,-7.4305156299999995,-1.43483895
+1,gpt-3.5-turbo-0125,Turkish-zan,2-TR,5_TR-2,Can kedinin {CEVAP} içinde olduğunu zannediyor.,"kutunun, sepetin",sepetin,2.0,-0.9268792749999999,-0.518363366,-6.561786840000001,-0.518363366
+1,gpt-3.5-turbo-0125,Turkish-zan,2A-TR,5_TR-2/2A,Can kedinin {CEVAP} içinde olduğunu zannediyor.,"kutunun, sandığın",kutunun,1.0,-0.893875181,-0.549978504,-5.23466447,-0.893875181
+1,gpt-3.5-turbo-0125,Turkish-zan,2B-TR,5_TR-2/2B,Can kedinin {CEVAP} üstünde olduğunu zannediyor.,"kutunun, sepetin",kutunun,1.0,-0.9501314799999999,-0.518794526,-5.77184837,-0.9501314799999999
+1,gpt-3.5-turbo-0125,Turkish-zan,2C-TR,5_TR-2,Can kedinin {CEVAP} içinde olduğunu zannediyor.,"kutunun, sepetin",kutunun,1.0,-0.806647427,-0.614519049,-6.53010976,-0.806647427
+1,gpt-3.5-turbo-0125,Turkish-zan,2D-TR,5_TR-2/2D,Mehmet kedinin {CEVAP} içinde olduğunu zannediyor.,"kutunun, sepetin",kutunun,1.0,-0.760161361,-0.642818599,-7.35072483,-0.760161361
+1,gpt-4-turbo-2024-04-09,English,1-EN,1_EN,She believes that the bag is full of {RESPONSE}.,"popcorn, chocolate",chocolate,2.0,-15.278795400000002,-4.68759069e-06,-18.5372138,-4.68759069e-06
+1,gpt-4-turbo-2024-04-09,English,1-EN,2_EN,She is delighted to have found this bag. She loves eating {RESPONSE}.,"popcorn, chocolate",chocolate,2.0,-16.271808200000002,-1.49293259e-06,-19.175971699999998,-1.49293259e-06
+1,gpt-4-turbo-2024-04-09,English,1A-EN,1_EN,She believes that the bag is full of {RESPONSE}.,"popcorn, chocolate",popcorn,1.0,-11.8650892,-1.9456924619999998e-05,-18.443257600000003,-11.8650892
+1,gpt-4-turbo-2024-04-09,English,1A-EN,2_EN,She is delighted to have found this bag. She loves eating {RESPONSE}.,"popcorn, chocolate",popcorn,1.0,-11.762013399999999,-1.82887286e-05,-19.399825714285715,-11.762013399999999
+1,gpt-4-turbo-2024-04-09,English,1B-EN,1_EN/1B,She believes that the bag is full of {RESPONSE}.,"popcorn, chocolate, uncertainty",uncertainty,3.0,-8.34466709,-2.759202023,-0.2020212765,-0.2020212765
+1,gpt-4-turbo-2024-04-09,English,1B-EN,2_EN/1B,She is delighted to have found this bag. She loves eating {RESPONSE}.,"popcorn, chocolate, uncertainty",uncertainty,3.0,-8.02420693,-0.000594567713,-8.902276,-8.902276
+1,gpt-4-turbo-2024-04-09,English,1C-EN,1_EN,She believes that the bag is full of {RESPONSE}.,"popcorn, chocolate",popcorn,1.0,-1.94590654e-06,-14.9447712,-21.400103,-1.94590654e-06
+1,gpt-4-turbo-2024-04-09,English,1C-EN,2_EN,She is delighted to have found this bag. She loves eating {RESPONSE}.,"popcorn, chocolate",popcorn,1.0,-4.44786122,-0.02400132704,-17.3944097,-4.44786122
+1,gpt-4-turbo-2024-04-09,English,1D-EN,1_EN,She believes that the bag is full of {RESPONSE}.,"popcorn, chocolate",popcorn,1.0,-0.00027073184249999996,-8.336399,-17.9124302,-0.00027073184249999996
+1,gpt-4-turbo-2024-04-09,English,1D-EN,2_EN,She is delighted to have found this bag. She loves eating {RESPONSE}.,"popcorn, chocolate",popcorn,1.0,-11.436355950000001,-2.567935653e-05,-17.6020534,-11.436355950000001
+1,gpt-4-turbo-2024-04-09,English,2-EN,5_EN,John thinks that the cat is in the {RESPONSE}.,"box, basket",basket,2.0,-17.8830649,-2.0291350149999997e-05,-18.8081683,-2.0291350149999997e-05
+1,gpt-4-turbo-2024-04-09,English,2-EN,6_EN,John will look for the cat in the {RESPONSE}.,"box, basket",basket,2.0,-18.3145897,-2.1542988500000002e-05,-18.8036712,-2.1542988500000002e-05
+1,gpt-4-turbo-2024-04-09,English,2A-EN,5_EN/2A,John thinks that the cat is in the {RESPONSE}.,"box, chest",box,1.0,-16.9129336,-1.7919197599999998e-05,-17.6066327,-16.9129336
+1,gpt-4-turbo-2024-04-09,English,2A-EN,6_EN/2A,John will look for the cat in the {RESPONSE}.,"box, chest",box,1.0,-17.8832648,-1.207821802e-05,-18.091044099999998,-17.8832648
+1,gpt-4-turbo-2024-04-09,English,2B-EN,5_EN/2B,John thinks that the cat is on the {RESPONSE}.,"box, basket",box,1.0,-15.171848399999998,-5.96307e-06,-18.1702939,-15.171848399999998
+1,gpt-4-turbo-2024-04-09,English,2B-EN,6_EN/2B,John will look for the cat on the {RESPONSE}.,"box, basket",box,1.0,-17.531264200000003,-1.28411214e-05,-19.0685574,-17.531264200000003
+1,gpt-4-turbo-2024-04-09,English,2C-EN,5_EN,John thinks that the cat is in the {RESPONSE}.,"box, basket",box,1.0,-0.16821945379,-3.549971493,-18.251661300000002,-0.16821945379
+1,gpt-4-turbo-2024-04-09,English,2C-EN,6_EN,John will look for the cat in the {RESPONSE}.,"box, basket",box,1.0,-0.30273389256,-2.55646391,-18.295088,-0.30273389256
+1,gpt-4-turbo-2024-04-09,English,2D-EN,5_EN/2D,Mark thinks that the cat is in the {RESPONSE}.,"box, basket",box,1.0,-0.0002492551909,-8.62640451,-18.4025763,-0.0002492551909
+1,gpt-4-turbo-2024-04-09,English,2D-EN,6_EN/2D,Mark will look for the cat in the {RESPONSE}.,"box, basket",box,1.0,-0.017189869045,-6.09102536,-19.5587644,-0.017189869045
+1,gpt-4-turbo-2024-04-09,Turkish,1-TR,1_TR-1,Ezgi torbanın {CEVAP} dolu olduğuna inanıyor.,"patlamış mısır, çikolata",çikolata,2.0,-14.2868749,-6.84517706e-06,-16.698741000000002,-6.84517706e-06
+1,gpt-4-turbo-2024-04-09,Turkish,1-TR,2_TR,Ezgi bu torbayı bulduğu için çok mutlu. O {CEVAP} yemeyi çok sever.,"patlamış mısır, çikolata",çikolata,2.0,-4.88490436,-0.01105967717,-17.3964481,-0.01105967717
+1,gpt-4-turbo-2024-04-09,Turkish,1A-TR,1_TR-1,Ezgi torbanın {CEVAP} dolu olduğuna inanıyor.,"patlamış mısır, çikolata",patlamış mısır,1.0,-4.79315343,-0.023800470810000002,-17.7281971,-4.79315343
+1,gpt-4-turbo-2024-04-09,Turkish,1A-TR,2_TR,Ezgi bu torbayı bulduğu için çok mutlu. O {CEVAP} yemeyi çok sever.,"patlamış mısır, çikolata",patlamış mısır,1.0,-0.00590176755,-5.3612123799999996,-17.928853,-0.00590176755
+1,gpt-4-turbo-2024-04-09,Turkish,1B-TR,1_TR-1/1B,Ezgi torbanın {CEVAP} dolu olduğuna inanıyor.,"patlamış mısır, çikolata, belirsizlik",belirsizlik,3.0,-9.48406643,-0.41151001769999995,-2.196670871,-2.196670871
+1,gpt-4-turbo-2024-04-09,Turkish,1B-TR,2_TR/1B,Ezgi bu torbayı bulduğu için çok mutlu. O {CEVAP} yemeyi çok sever.,"patlamış mısır, çikolata, belirsizlik",belirsizlik,3.0,-0.025331726989999998,-5.62857648,-4.42382832,-4.42382832
+1,gpt-4-turbo-2024-04-09,Turkish,1C-TR,1_TR-1,Ezgi torbanın {CEVAP} dolu olduğuna inanıyor.,"patlamış mısır, çikolata",patlamış mısır,1.0,-0.00324004938,-6.0608466,-17.4815854,-0.00324004938
+1,gpt-4-turbo-2024-04-09,Turkish,1C-TR,2_TR,Ezgi bu torbayı bulduğu için çok mutlu. O {CEVAP} yemeyi çok sever.,"patlamış mısır, çikolata",patlamış mısır,1.0,-0.002582155926,-6.05670624,-17.955029,-0.002582155926
+1,gpt-4-turbo-2024-04-09,Turkish,1D-TR,1_TR-1,Ezgi torbanın {CEVAP} dolu olduğuna inanıyor.,"patlamış mısır, çikolata",patlamış mısır,1.0,-0.3699558784,-2.401207065,-17.9708607,-0.3699558784
+1,gpt-4-turbo-2024-04-09,Turkish,1D-TR,2_TR,Ezgi bu torbayı bulduğu için çok mutlu. O {CEVAP} yemeyi çok sever.,"patlamış mısır, çikolata",patlamış mısır,1.0,-0.4405536965,-2.145665375,-17.7809046,-0.4405536965
+1,gpt-4-turbo-2024-04-09,Turkish,2-TR,5_TR-1,Can kedinin {CEVAP} içinde olduğunu düşünüyor.,"kutunun, sepetin",sepetin,2.0,-16.7770346,-2.6919074499999998e-05,-17.6879976,-2.6919074499999998e-05
+1,gpt-4-turbo-2024-04-09,Turkish,2-TR,6_TR,Can kediyi {CEVAP} içinde arayacak.,"kutunun, sepetin",sepetin,2.0,-13.4155421,-0.00013538377119999998,-17.1636678,-0.00013538377119999998
+1,gpt-4-turbo-2024-04-09,Turkish,2A-TR,5_TR-1/2A,Can kedinin {CEVAP} içinde olduğunu düşünüyor.,"kutunun, sandığın",kutunun,1.0,-16.35435375,-3.57043849e-05,-17.7877825,-16.35435375
+1,gpt-4-turbo-2024-04-09,Turkish,2A-TR,6_TR/2A,Can kediyi {CEVAP} içinde arayacak.,"kutunun, sandığın",kutunun,1.0,-6.848095209999999,-0.045796568802000004,-17.8608036,-6.848095209999999
+1,gpt-4-turbo-2024-04-09,Turkish,2B-TR,5_TR-1/2B,Can kedinin {CEVAP} üstünde olduğunu düşünüyor.,"kutunun, sepetin",kutunun,1.0,-13.8815128,-5.950935530000001e-05,-17.1272542,-13.8815128
+1,gpt-4-turbo-2024-04-09,Turkish,2B-TR,6_TR/2B,Can kediyi {CEVAP} üstünde arayacak.,"kutunun, sepetin",kutunun,1.0,-9.86818905,-0.0006398156363000001,-16.412401,-9.86818905
+1,gpt-4-turbo-2024-04-09,Turkish,2C-TR,5_TR-1,Can kedinin {CEVAP} içinde olduğunu düşünüyor.,"kutunun, sepetin",kutunun,1.0,-7.18545704,-0.0101875490827,-17.7471173,-7.18545704
+1,gpt-4-turbo-2024-04-09,Turkish,2C-TR,6_TR,Can kediyi {CEVAP} içinde arayacak.,"kutunun, sepetin",kutunun,1.0,-8.586659659999999,-0.00046372683700000004,-17.233548,-8.586659659999999
+1,gpt-4-turbo-2024-04-09,Turkish,2D-TR,5_TR-1/2D,Mehmet kedinin {CEVAP} içinde olduğunu düşünüyor.,"kutunun, sepetin",kutunun,1.0,-0.007892800571,-6.63962027,-17.8269755,-0.007892800571
+1,gpt-4-turbo-2024-04-09,Turkish,2D-TR,6_TR/2D,Mehmet kediyi {CEVAP} içinde arayacak.,"kutunun, sepetin",kutunun,1.0,-6.94025252e-05,-11.49039225,-17.20424311111111,-6.94025252e-05
+1,gpt-4-turbo-2024-04-09,Turkish-san,1-TR,1_TR-3,Ezgi torbanın {CEVAP} dolu olduğunu sanıyor.,"patlamış mısır, çikolata",çikolata,2.0,-15.467375350000001,-5.21208691e-06,-17.0213891,-5.21208691e-06
+1,gpt-4-turbo-2024-04-09,Turkish-san,1A-TR,1_TR-3,Ezgi torbanın {CEVAP} dolu olduğunu sanıyor.,"patlamış mısır, çikolata",patlamış mısır,1.0,-14.88011425,-5.17632588e-06,-17.1785961,-14.88011425
+1,gpt-4-turbo-2024-04-09,Turkish-san,1B-TR,1_TR-3/1B,Ezgi torbanın {CEVAP} dolu olduğunu sanıyor.,"patlamış mısır, çikolata, belirsizlik",belirsizlik,3.0,-9.8309866,-0.31297012616000003,-2.30975266,-2.30975266
+1,gpt-4-turbo-2024-04-09,Turkish-san,1C-TR,1_TR-3,Ezgi torbanın {CEVAP} dolu olduğunu sanıyor.,"patlamış mısır, çikolata",patlamış mısır,1.0,-6.457089170000001,-0.0035598146195,-16.5938433,-6.457089170000001
+1,gpt-4-turbo-2024-04-09,Turkish-san,1D-TR,1_TR-3,Ezgi torbanın {CEVAP} dolu olduğunu sanıyor.,"patlamış mısır, çikolata",patlamış mısır,1.0,-7.0598957,-0.002005799638,-16.9166495,-7.0598957
+1,gpt-4-turbo-2024-04-09,Turkish-san,2-TR,5_TR-3,Can kedinin {CEVAP} içinde olduğunu sanıyor.,"kutunun, sepetin",sepetin,2.0,-16.4979306,-2.632305555e-05,-17.385824500000002,-2.632305555e-05
+1,gpt-4-turbo-2024-04-09,Turkish-san,2A-TR,5_TR-3/2A,Can kedinin {CEVAP} içinde olduğunu sanıyor.,"kutunun, sandığın",kutunun,1.0,-15.829394099999998,-2.8397199699999998e-05,-17.3246958,-15.829394099999998
+1,gpt-4-turbo-2024-04-09,Turkish-san,2B-TR,5_TR-3/2B,Can kedinin {CEVAP} üstünde olduğunu sanıyor.,"kutunun, sepetin",kutunun,1.0,-13.178200799999999,-4.74817062e-05,-16.2595179,-13.178200799999999
+1,gpt-4-turbo-2024-04-09,Turkish-san,2C-TR,5_TR-3,Can kedinin {CEVAP} içinde olduğunu sanıyor.,"kutunun, sepetin",kutunun,1.0,-7.2991483850000005,-0.10785911884519998,-16.7249497,-7.2991483850000005
+1,gpt-4-turbo-2024-04-09,Turkish-san,2D-TR,5_TR-3/2D,Mehmet kedinin {CEVAP} içinde olduğunu sanıyor.,"kutunun, sepetin",kutunun,1.0,-0.09028960932499999,-4.81729877,-16.981102,-0.09028960932499999
+1,gpt-4-turbo-2024-04-09,Turkish-zan,1-TR,1_TR-2,Ezgi torbanın {CEVAP} dolu olduğunu zannediyor.,"patlamış mısır, çikolata",çikolata,2.0,-15.387054800000001,-4.25845762e-06,-16.9690075,-4.25845762e-06
+1,gpt-4-turbo-2024-04-09,Turkish-zan,1A-TR,1_TR-2,Ezgi torbanın {CEVAP} dolu olduğunu zannediyor.,"patlamış mısır, çikolata",patlamış mısır,1.0,-14.3267475,-6.451805e-06,-16.8409725,-14.3267475
+1,gpt-4-turbo-2024-04-09,Turkish-zan,1B-TR,1_TR-2/1B,Ezgi torbanın {CEVAP} dolu olduğunu zannediyor.,"patlamış mısır, çikolata, belirsizlik",belirsizlik,3.0,-8.12268109,-1.058404554,-1.2926075024,-1.2926075024
+1,gpt-4-turbo-2024-04-09,Turkish-zan,1C-TR,1_TR-2,Ezgi torbanın {CEVAP} dolu olduğunu zannediyor.,"patlamış mısır, çikolata",patlamış mısır,1.0,-1.1427017866,-1.1144814064,-17.3611008,-1.1427017866
+1,gpt-4-turbo-2024-04-09,Turkish-zan,1D-TR,1_TR-2,Ezgi torbanın {CEVAP} dolu olduğunu zannediyor.,"patlamış mısır, çikolata",patlamış mısır,1.0,-7.5571083,-0.001532422487,-16.7920691,-7.5571083
+1,gpt-4-turbo-2024-04-09,Turkish-zan,2-TR,5_TR-2,Can kedinin {CEVAP} içinde olduğunu zannediyor.,"kutunun, sepetin",sepetin,2.0,-16.034577000000002,-3.12223264e-05,-17.1286415,-3.12223264e-05
+1,gpt-4-turbo-2024-04-09,Turkish-zan,2A-TR,5_TR-2/2A,Can kedinin {CEVAP} içinde olduğunu zannediyor.,"kutunun, sandığın",kutunun,1.0,-13.9321325,-3.3379912200000005e-05,-16.7447526,-13.9321325
+1,gpt-4-turbo-2024-04-09,Turkish-zan,2B-TR,5_TR-2/2B,Can kedinin {CEVAP} üstünde olduğunu zannediyor.,"kutunun, sepetin",kutunun,1.0,-11.347552199999999,-8.155726590000001e-05,-16.0141989,-11.347552199999999
+1,gpt-4-turbo-2024-04-09,Turkish-zan,2C-TR,5_TR-2,Can kedinin {CEVAP} içinde olduğunu zannediyor.,"kutunun, sepetin",kutunun,1.0,-3.8825744998399996,-2.1372292669272,-17.2290524,-3.8825744998399996
+1,gpt-4-turbo-2024-04-09,Turkish-zan,2D-TR,5_TR-2/2D,Mehmet kedinin {CEVAP} içinde olduğunu zannediyor.,"kutunun, sepetin",kutunun,1.0,-4.45373756e-05,-11.235801949999999,-16.5467014,-4.45373756e-05
+2,gpt-3.5-turbo-0125,English,1-EN,1_EN,She believes that the bag is full of {RESPONSE}.,"popcorn, chocolate",chocolate,2.0,-1.932288694,-0.2247705189,-10.5118613,-0.2247705189
+2,gpt-3.5-turbo-0125,English,1-EN,2_EN,She is delighted to have found this bag. She loves eating {RESPONSE}.,"popcorn, chocolate",chocolate,2.0,-3.15760136,-0.0699989467,-10.9399772,-0.0699989467
+2,gpt-3.5-turbo-0125,English,1-EN,4_EN,She opens the bag and looks inside. She can clearly see that it is full of {RESPONSE}.,"popcorn, chocolate",popcorn,1.0,-0.00127704483,-6.69047229,-15.1871546,-0.00127704483
+2,gpt-3.5-turbo-0125,English,1A-EN,1_EN,She believes that the bag is full of {RESPONSE}.,"popcorn, chocolate",popcorn,1.0,-1.8206388710000003,-0.5138462881000001,-11.412853799999999,-1.8206388710000003
+2,gpt-3.5-turbo-0125,English,1A-EN,2_EN,She is delighted to have found this bag. She loves eating {RESPONSE}.,"popcorn, chocolate",popcorn,1.0,-2.463004427,-0.23391261160000001,-11.1811149,-2.463004427
+2,gpt-3.5-turbo-0125,English,1A-EN,4_EN,She opens the bag and looks inside. She can clearly see that it is full of {RESPONSE}.,"popcorn, chocolate",popcorn,1.0,-0.00081213715,-7.58696348,-15.50307435,-0.00081213715
+2,gpt-3.5-turbo-0125,English,1B-EN,1_EN/1B,She believes that the bag is full of {RESPONSE}.,"popcorn, chocolate, uncertainty",uncertainty,3.0,-3.93950844,-0.480429639,-1.065269668,-1.065269668
+2,gpt-3.5-turbo-0125,English,1B-EN,2_EN/1B,She is delighted to have found this bag. She loves eating {RESPONSE}.,"popcorn, chocolate, uncertainty",uncertainty,3.0,-0.1238800776,-2.4536385,-6.67320714,-6.67320714
+2,gpt-3.5-turbo-0125,English,1B-EN,4_EN,She opens the bag and looks inside. She can clearly see that it is full of {RESPONSE}.,"popcorn, chocolate",popcorn,1.0,-0.000804472614,-7.35134446,-13.966062099999998,-0.000804472614
+2,gpt-3.5-turbo-0125,English,1C-EN,1_EN,She believes that the bag is full of {RESPONSE}.,"popcorn, chocolate",popcorn,1.0,-2.22833041,-0.1282775456,-10.576327299999999,-2.22833041
+2,gpt-3.5-turbo-0125,English,1C-EN,2_EN,She is delighted to have found this bag. She loves eating {RESPONSE}.,"popcorn, chocolate",popcorn,1.0,-5.55151193,-0.00478335591,-12.2682256,-5.55151193
+2,gpt-3.5-turbo-0125,English,1C-EN,4_EN,She opens the bag and looks inside. She can clearly see that it is full of {RESPONSE}.,"popcorn, chocolate",popcorn,1.0,-0.30146824129999994,-2.247919821,-12.41844085,-0.30146824129999994
+2,gpt-3.5-turbo-0125,English,1D-EN,1_EN,She believes that the bag is full of {RESPONSE}.,"popcorn, chocolate",popcorn,1.0,-0.03319668647,-4.52892488,-12.4864188,-0.03319668647
+2,gpt-3.5-turbo-0125,English,1D-EN,2_EN,She is delighted to have found this bag. She loves eating {RESPONSE}.,"popcorn, chocolate",popcorn,1.0,-0.817284439,-0.718874596,-11.721232599999999,-0.817284439
+2,gpt-3.5-turbo-0125,English,1D-EN,4_EN,She opens the bag and looks inside. She can clearly see that it is full of {RESPONSE}.,"popcorn, chocolate",popcorn,1.0,-0.002085367163,-7.44270157,-15.23885095,-0.002085367163
+2,gpt-3.5-turbo-0125,English,2-EN,5_EN,John thinks that the cat is in the {RESPONSE}.,"box, basket",basket,2.0,-0.6224269099999999,-0.78160185,-10.90370575,-0.78160185
+2,gpt-3.5-turbo-0125,English,2-EN,6_EN,John will look for the cat in the {RESPONSE}.,"box, basket",basket,2.0,-1.185922746,-0.483036143,-11.1699929,-0.483036143
+2,gpt-3.5-turbo-0125,English,2-EN,8_EN,The cat jumps out of the {RESPONSE}.,"box, basket",box,1.0,-0.053873636550000006,-5.00349065,-12.1456372,-0.053873636550000006
+2,gpt-3.5-turbo-0125,English,2A-EN,5_EN/2A,John thinks that the cat is in the {RESPONSE}.,"box, chest",box,1.0,-0.9717373909999999,-0.48684569099999997,-10.3831019,-0.9717373909999999
+2,gpt-3.5-turbo-0125,English,2A-EN,6_EN/2A,John will look for the cat in the {RESPONSE}.,"box, chest",box,1.0,-2.076062508,-0.3448289094,-10.1905417,-2.076062508
+2,gpt-3.5-turbo-0125,English,2A-EN,8_EN/2A,The cat jumps out of the {RESPONSE}.,"box, chest",box,1.0,-0.07340861696999999,-3.8169648799999996,-11.30295305,-0.07340861696999999
+2,gpt-3.5-turbo-0125,English,2B-EN,5_EN/2B,John thinks that the cat is on the {RESPONSE}.,"box, basket",box,1.0,-1.19127107,-0.376275484,-10.416059,-1.19127107
+2,gpt-3.5-turbo-0125,English,2B-EN,6_EN/2B,John will look for the cat on the {RESPONSE}.,"box, basket",box,1.0,-2.2444898899999997,-0.1305031539,-10.2852574,-2.2444898899999997
+2,gpt-3.5-turbo-0125,English,2B-EN,8_EN/2B,The cat jumps off of the {RESPONSE}.,"box, basket",box,1.0,-2.76531094,-0.0891550549,-8.90119155,-2.76531094
+2,gpt-3.5-turbo-0125,English,2C-EN,5_EN,John thinks that the cat is in the {RESPONSE}.,"box, basket",box,1.0,-0.546114695,-0.912537726,-11.293888200000001,-0.546114695
+2,gpt-3.5-turbo-0125,English,2C-EN,6_EN,John will look for the cat in the {RESPONSE}.,"box, basket",box,1.0,-0.11814350115999998,-2.63507633,-11.738263700000001,-0.11814350115999998
+2,gpt-3.5-turbo-0125,English,2C-EN,8_EN,The cat jumps out of the {RESPONSE}.,"box, basket",box,1.0,-0.17648647947,-2.3899043,-11.0360527,-0.17648647947
+2,gpt-3.5-turbo-0125,English,2D-EN,5_EN/2D,Mark thinks that the cat is in the {RESPONSE}.,"box, basket",box,1.0,-0.517533028,-0.924084597,-10.6231868,-0.517533028
+2,gpt-3.5-turbo-0125,English,2D-EN,6_EN/2D,Mark will look for the cat in the {RESPONSE}.,"box, basket",box,1.0,-0.901541215,-0.5725241459999999,-11.0968684,-0.901541215
+2,gpt-3.5-turbo-0125,English,2D-EN,8_EN,The cat jumps out of the {RESPONSE}.,"box, basket",box,1.0,-0.055219994259999995,-4.46818393,-11.767299099999999,-0.055219994259999995
+2,gpt-3.5-turbo-0125,Turkish,1-TR,1_TR-1,Ezgi torbanın {CEVAP} dolu olduğuna inanıyor.,"patlamış mısır, çikolata",çikolata,2.0,-1.1975624699999998,-0.37931426999999995,-8.4886747,-0.37931426999999995
+2,gpt-3.5-turbo-0125,Turkish,1-TR,2_TR,Ezgi bu torbayı bulduğu için çok mutlu. O {CEVAP} yemeyi çok sever.,"patlamış mısır, çikolata",çikolata,2.0,-1.0496938635666668,-0.8578584035333333,-11.264210499999999,-0.8578584035333333
+2,gpt-3.5-turbo-0125,Turkish,1-TR,4_TR,Ezgi torbayı açar ve içine bakar. Ezgi açık bir şekilde içinin {CEVAP} dolu olduğunu görür.,"patlamış mısır, çikolata",patlamış mısır,1.0,-0.35719509716666664,-2.2939321733333333,-11.731043883333333,-0.35719509716666664
+2,gpt-3.5-turbo-0125,Turkish,1A-TR,1_TR-1,Ezgi torbanın {CEVAP} dolu olduğuna inanıyor.,"patlamış mısır, çikolata",patlamış mısır,1.0,-0.991158869,-0.5178383049999999,-8.3432205,-0.991158869
+2,gpt-3.5-turbo-0125,Turkish,1A-TR,2_TR,Ezgi bu torbayı bulduğu için çok mutlu. O {CEVAP} yemeyi çok sever.,"patlamış mısır, çikolata",patlamış mısır,1.0,-0.10833968491333333,-3.059166835,-12.351813883333334,-0.10833968491333333
+2,gpt-3.5-turbo-0125,Turkish,1A-TR,4_TR,Ezgi torbayı açar ve içine bakar. Ezgi açık bir şekilde içinin {CEVAP} dolu olduğunu görür.,"patlamış mısır, çikolata",patlamış mısır,1.0,-0.018988639699999997,-4.371562606666667,-12.666938716666667,-0.018988639699999997
+2,gpt-3.5-turbo-0125,Turkish,1B-TR,1_TR-1/1B,Ezgi torbanın {CEVAP} dolu olduğuna inanıyor.,"patlamış mısır, çikolata, belirsizlik",belirsizlik,3.0,-3.39322706,-0.0560750085,-4.49377404,-4.49377404
+2,gpt-3.5-turbo-0125,Turkish,1B-TR,2_TR/1B,Ezgi bu torbayı bulduğu için çok mutlu. O {CEVAP} yemeyi çok sever.,"patlamış mısır, çikolata, belirsizlik",belirsizlik,3.0,-2.5365336676666668,-0.2245115272333333,-5.947894496666667,-5.947894496666667
+2,gpt-3.5-turbo-0125,Turkish,1B-TR,4_TR,Ezgi torbayı açar ve içine bakar. Ezgi açık bir şekilde içinin {CEVAP} dolu olduğunu görür.,"patlamış mısır, çikolata",patlamış mısır,1.0,-3.1710821897333332,-0.3529846035666667,-9.942260366666666,-3.1710821897333332
+2,gpt-3.5-turbo-0125,Turkish,1C-TR,1_TR-1,Ezgi torbanın {CEVAP} dolu olduğuna inanıyor.,"patlamış mısır, çikolata",patlamış mısır,1.0,-0.29551675899999996,-1.4542117700000001,-8.99288815,-0.29551675899999996
+2,gpt-3.5-turbo-0125,Turkish,1C-TR,2_TR,Ezgi bu torbayı bulduğu için çok mutlu. O {CEVAP} yemeyi çok sever.,"patlamış mısır, çikolata",patlamış mısır,1.0,-0.9924264754666667,-0.9800740571,-11.5268259,-0.9924264754666667
+2,gpt-3.5-turbo-0125,Turkish,1C-TR,4_TR,Ezgi torbayı açar ve içine bakar. Ezgi açık bir şekilde içinin {CEVAP} dolu olduğunu görür.,"patlamış mısır, çikolata",patlamış mısır,1.0,-0.17895723303333336,-2.2301301393333333,-12.230895433333334,-0.17895723303333336
+2,gpt-3.5-turbo-0125,Turkish,1D-TR,1_TR-1,Ezgi torbanın {CEVAP} dolu olduğuna inanıyor.,"patlamış mısır, çikolata",patlamış mısır,1.0,-1.0976075299999999,-0.451271576,-7.8606150900000005,-1.0976075299999999
+2,gpt-3.5-turbo-0125,Turkish,1D-TR,2_TR,Ezgi bu torbayı bulduğu için çok mutlu. O {CEVAP} yemeyi çok sever.,"patlamış mısır, çikolata",patlamış mısır,1.0,-0.8954152762333333,-0.9627467336,-11.506040366666667,-0.8954152762333333
+2,gpt-3.5-turbo-0125,Turkish,1D-TR,4_TR,Ezgi torbayı açar ve içine bakar. Ezgi açık bir şekilde içinin {CEVAP} dolu olduğunu görür.,"patlamış mısır, çikolata",patlamış mısır,1.0,-1.0550216876666667,-1.1814673831333333,-10.70315655,-1.0550216876666667
+2,gpt-3.5-turbo-0125,Turkish,2-TR,5_TR-1,Can kedinin {CEVAP} içinde olduğunu düşünüyor.,"kutunun, sepetin",sepetin,2.0,-1.1749376,-0.3793352,-7.136242230000001,-0.3793352
+2,gpt-3.5-turbo-0125,Turkish,2-TR,6_TR,Can kediyi {CEVAP} içinde arayacak.,"kutunun, sepetin",sepetin,2.0,-2.2479950800000004,-0.161580866,-9.713479716666665,-0.161580866
+2,gpt-3.5-turbo-0125,Turkish,2-TR,8_TR,Kedi {CEVAP} içinden zıplar.,"kutunun, sepetin",kutunun,1.0,-0.07965415678333333,-3.354113691666667,-12.260466266666667,-0.07965415678333333
+2,gpt-3.5-turbo-0125,Turkish,2A-TR,5_TR-1/2A,Can kedinin {CEVAP} içinde olduğunu düşünüyor.,"kutunun, sandığın",kutunun,1.0,-1.15408814,-0.40688757000000003,-5.14356906,-1.15408814
+2,gpt-3.5-turbo-0125,Turkish,2A-TR,6_TR/2A,Can kediyi {CEVAP} içinde arayacak.,"kutunun, sandığın",kutunun,1.0,-1.406610977,-0.31828559216666663,-9.501280866666667,-1.406610977
+2,gpt-3.5-turbo-0125,Turkish,2A-TR,8_TR/2A,Kedi {CEVAP} içinden zıplar.,"kutunun, sandığın",kutunun,1.0,-0.24242517933333332,-1.5735798699999999,-10.736607583333333,-0.24242517933333332
+2,gpt-3.5-turbo-0125,Turkish,2B-TR,5_TR-1/2B,Can kedinin {CEVAP} üstünde olduğunu düşünüyor.,"kutunun, sepetin",kutunun,1.0,-1.2038427600000001,-0.367990523,-6.501365,-1.2038427600000001
+2,gpt-3.5-turbo-0125,Turkish,2B-TR,6_TR/2B,Can kediyi {CEVAP} üstünde arayacak.,"kutunun, sepetin",kutunun,1.0,-3.3450268,-0.039589512099999995,-8.95448047,-3.3450268
+2,gpt-3.5-turbo-0125,Turkish,2B-TR,8_TR/2B,Kedi {CEVAP} üstünden zıplar.,"kutunun, sepetin",kutunun,1.0,-0.1983854223,-2.2063320753333335,-11.0579877,-0.1983854223
+2,gpt-3.5-turbo-0125,Turkish,2C-TR,5_TR-1,Can kedinin {CEVAP} içinde olduğunu düşünüyor.,"kutunun, sepetin",kutunun,1.0,-0.747116388,-0.665134341,-7.39399722,-0.747116388
+2,gpt-3.5-turbo-0125,Turkish,2C-TR,6_TR,Can kediyi {CEVAP} içinde arayacak.,"kutunun, sepetin",kutunun,1.0,-1.7480718723333335,-0.49729900033333335,-10.05621155,-1.7480718723333335
+2,gpt-3.5-turbo-0125,Turkish,2C-TR,8_TR,Kedi {CEVAP} içinden zıplar.,"kutunun, sepetin",kutunun,1.0,-0.7768752018333333,-2.0219003266,-11.643438233333335,-0.7768752018333333
+2,gpt-3.5-turbo-0125,Turkish,2D-TR,5_TR-1/2D,Mehmet kedinin {CEVAP} içinde olduğunu düşünüyor.,"kutunun, sepetin",kutunun,1.0,-1.14526409,-0.390352292,-7.16757722,-1.14526409
+2,gpt-3.5-turbo-0125,Turkish,2D-TR,6_TR/2D,Mehmet kediyi {CEVAP} içinde arayacak.,"kutunun, sepetin",kutunun,1.0,-0.19472203100000002,-2.6274120683333333,-11.12759245,-0.19472203100000002
+2,gpt-3.5-turbo-0125,Turkish,2D-TR,8_TR,Kedi {CEVAP} içinden zıplar.,"kutunun, sepetin",kutunun,1.0,-1.250760578,-0.48311216300000004,-10.014531275,-1.250760578
+2,gpt-3.5-turbo-0125,Turkish-san,1-TR,1_TR-3,Ezgi torbanın {CEVAP} dolu olduğunu sanıyor.,"patlamış mısır, çikolata",çikolata,2.0,-0.87255898,-0.5895282930000001,-7.7879932499999995,-0.5895282930000001
+2,gpt-3.5-turbo-0125,Turkish-san,1A-TR,1_TR-3,Ezgi torbanın {CEVAP} dolu olduğunu sanıyor.,"patlamış mısır, çikolata",patlamış mısır,1.0,-0.807035211,-0.627272187,-8.15604975,-0.807035211
+2,gpt-3.5-turbo-0125,Turkish-san,1B-TR,1_TR-3/1B,Ezgi torbanın {CEVAP} dolu olduğunu sanıyor.,"patlamış mısır, çikolata, belirsizlik",belirsizlik,3.0,-3.06496472,-0.0834755265,-3.63630487,-3.63630487
+2,gpt-3.5-turbo-0125,Turkish-san,1C-TR,1_TR-3,Ezgi torbanın {CEVAP} dolu olduğunu sanıyor.,"patlamış mısır, çikolata",patlamış mısır,1.0,-0.484632512,-1.011699495,-8.8259636,-0.484632512
+2,gpt-3.5-turbo-0125,Turkish-san,1D-TR,1_TR-3,Ezgi torbanın {CEVAP} dolu olduğunu sanıyor.,"patlamış mısır, çikolata",patlamış mısır,1.0,-1.07954461,-0.447373546,-7.7073399899999995,-1.07954461
+2,gpt-3.5-turbo-0125,Turkish-san,2-TR,5_TR-3,Can kedinin {CEVAP} içinde olduğunu sanıyor.,"kutunun, sepetin",sepetin,2.0,-1.16086133,-0.38840152,-6.888861350000001,-0.38840152
+2,gpt-3.5-turbo-0125,Turkish-san,2A-TR,5_TR-3/2A,Can kedinin {CEVAP} içinde olduğunu sanıyor.,"kutunun, sandığın",kutunun,1.0,-0.9901149869999999,-0.49488201800000003,-4.94244839,-0.9901149869999999
+2,gpt-3.5-turbo-0125,Turkish-san,2B-TR,5_TR-3/2B,Can kedinin {CEVAP} üstünde olduğunu sanıyor.,"kutunun, sepetin",kutunun,1.0,-1.18669425,-0.374954133,-6.52393084,-1.18669425
+2,gpt-3.5-turbo-0125,Turkish-san,2C-TR,5_TR-3,Can kedinin {CEVAP} içinde olduğunu sanıyor.,"kutunun, sepetin",kutunun,1.0,-0.7949171039999999,-0.623973641,-7.17907484,-0.7949171039999999
+2,gpt-3.5-turbo-0125,Turkish-san,2D-TR,5_TR-3/2D,Mehmet kedinin {CEVAP} içinde olduğunu sanıyor.,"kutunun, sepetin",kutunun,1.0,-0.9019441130000001,-0.5294414059999999,-7.06155053,-0.9019441130000001
+2,gpt-3.5-turbo-0125,Turkish-zan,1-TR,1_TR-2,Ezgi torbanın {CEVAP} dolu olduğunu zannediyor.,"patlamış mısır, çikolata",çikolata,2.0,-1.165932036,-0.419749015,-7.70790344,-0.419749015
+2,gpt-3.5-turbo-0125,Turkish-zan,1A-TR,1_TR-2,Ezgi torbanın {CEVAP} dolu olduğunu zannediyor.,"patlamış mısır, çikolata",patlamış mısır,1.0,-0.770602352,-0.73361772,-7.98806582,-0.770602352
+2,gpt-3.5-turbo-0125,Turkish-zan,1B-TR,1_TR-2/1B,Ezgi torbanın {CEVAP} dolu olduğunu zannediyor.,"patlamış mısır, çikolata, belirsizlik",belirsizlik,3.0,-2.66267602,-0.11938148109999999,-3.39719733,-3.39719733
+2,gpt-3.5-turbo-0125,Turkish-zan,1C-TR,1_TR-2,Ezgi torbanın {CEVAP} dolu olduğunu zannediyor.,"patlamış mısır, çikolata",patlamış mısır,1.0,-0.566367702,-0.975650202,-8.7642567,-0.566367702
+2,gpt-3.5-turbo-0125,Turkish-zan,1D-TR,1_TR-2,Ezgi torbanın {CEVAP} dolu olduğunu zannediyor.,"patlamış mısır, çikolata",patlamış mısır,1.0,-1.43927187,-0.298807082,-7.39743701,-1.43927187
+2,gpt-3.5-turbo-0125,Turkish-zan,2-TR,5_TR-2,Can kedinin {CEVAP} içinde olduğunu zannediyor.,"kutunun, sepetin",sepetin,2.0,-0.934927142,-0.512601639,-6.60216523,-0.512601639
+2,gpt-3.5-turbo-0125,Turkish-zan,2A-TR,5_TR-2/2A,Can kedinin {CEVAP} içinde olduğunu zannediyor.,"kutunun, sandığın",kutunun,1.0,-0.911377435,-0.5398751350000001,-5.58614798,-0.911377435
+2,gpt-3.5-turbo-0125,Turkish-zan,2B-TR,5_TR-2/2B,Can kedinin {CEVAP} üstünde olduğunu zannediyor.,"kutunun, sepetin",kutunun,1.0,-0.992286298,-0.49445363000000003,-5.84814089,-0.992286298
+2,gpt-3.5-turbo-0125,Turkish-zan,2C-TR,5_TR-2,Can kedinin {CEVAP} içinde olduğunu zannediyor.,"kutunun, sepetin",kutunun,1.0,-0.796091762,-0.62452306,-6.350679120000001,-0.796091762
+2,gpt-3.5-turbo-0125,Turkish-zan,2D-TR,5_TR-2/2D,Mehmet kedinin {CEVAP} içinde olduğunu zannediyor.,"kutunun, sepetin",kutunun,1.0,-0.7090278729999999,-0.698915494,-7.241412599999999,-0.7090278729999999
+2,gpt-4-turbo-2024-04-09,English,1-EN,1_EN,She believes that the bag is full of {RESPONSE}.,"popcorn, chocolate",chocolate,2.0,-15.2062019,-4.9855999e-06,-18.497431499999998,-4.9855999e-06
+2,gpt-4-turbo-2024-04-09,English,1-EN,2_EN,She is delighted to have found this bag. She loves eating {RESPONSE}.,"popcorn, chocolate",chocolate,2.0,-16.2506516,-1.75769428e-07,-21.593074,-1.75769428e-07
+2,gpt-4-turbo-2024-04-09,English,1-EN,4_EN,She opens the bag and looks inside. She can clearly see that it is full of {RESPONSE}.,"popcorn, chocolate",popcorn,1.0,0.0,-22.4480403,-26.885603200000002,0.0
+2,gpt-4-turbo-2024-04-09,English,1A-EN,1_EN,She believes that the bag is full of {RESPONSE}.,"popcorn, chocolate",popcorn,1.0,-11.9272255,-1.214973994e-05,-18.4842993,-11.9272255
+2,gpt-4-turbo-2024-04-09,English,1A-EN,2_EN,She is delighted to have found this bag. She loves eating {RESPONSE}.,"popcorn, chocolate",popcorn,1.0,-16.5460306,-1.2808795799999998e-07,-21.4804629,-16.5460306
+2,gpt-4-turbo-2024-04-09,English,1A-EN,4_EN,She opens the bag and looks inside. She can clearly see that it is full of {RESPONSE}.,"popcorn, chocolate",popcorn,1.0,0.0,-20.9873318,-26.6894478,0.0
+2,gpt-4-turbo-2024-04-09,English,1B-EN,1_EN/1B,She believes that the bag is full of {RESPONSE}.,"popcorn, chocolate, uncertainty",uncertainty,3.0,-7.835660760000001,-2.692116034,-0.32762129616,-0.32762129616
+2,gpt-4-turbo-2024-04-09,English,1B-EN,2_EN/1B,She is delighted to have found this bag. She loves eating {RESPONSE}.,"popcorn, chocolate, uncertainty",uncertainty,3.0,-7.0149169,-0.00718772335932,-9.8779599,-9.8779599
+2,gpt-4-turbo-2024-04-09,English,1B-EN,4_EN,She opens the bag and looks inside. She can clearly see that it is full of {RESPONSE}.,"popcorn, chocolate",popcorn,1.0,0.0,-24.039188000000003,-26.3049878,0.0
+2,gpt-4-turbo-2024-04-09,English,1C-EN,1_EN,She believes that the bag is full of {RESPONSE}.,"popcorn, chocolate",popcorn,1.0,-1.564454824e-06,-15.2341497,-21.592686375,-1.564454824e-06
+2,gpt-4-turbo-2024-04-09,English,1C-EN,2_EN,She is delighted to have found this bag. She loves eating {RESPONSE}.,"popcorn, chocolate",popcorn,1.0,-0.001311855044,-7.12480772,-18.8612123,-0.001311855044
+2,gpt-4-turbo-2024-04-09,English,1C-EN,4_EN,She opens the bag and looks inside. She can clearly see that it is full of {RESPONSE}.,"popcorn, chocolate",popcorn,1.0,-2.29373754e-07,-15.7728464,-23.9192396,-2.29373754e-07
+2,gpt-4-turbo-2024-04-09,English,1D-EN,1_EN,She believes that the bag is full of {RESPONSE}.,"popcorn, chocolate",popcorn,1.0,-0.00024856747900000003,-8.799763369999999,-18.120461600000002,-0.00024856747900000003
+2,gpt-4-turbo-2024-04-09,English,1D-EN,2_EN,She is delighted to have found this bag. She loves eating {RESPONSE}.,"popcorn, chocolate",popcorn,1.0,-14.03773265,-1.0757198049999999e-06,-21.0158086,-14.03773265
+2,gpt-4-turbo-2024-04-09,English,1D-EN,4_EN,She opens the bag and looks inside. She can clearly see that it is full of {RESPONSE}.,"popcorn, chocolate",popcorn,1.0,0.0,-19.0924402,-26.173652800000003,0.0
+2,gpt-4-turbo-2024-04-09,English,2-EN,5_EN,John thinks that the cat is in the {RESPONSE}.,"box, basket",basket,2.0,-17.6967639,-2.025558925e-05,-18.7234177,-2.025558925e-05
+2,gpt-4-turbo-2024-04-09,English,2-EN,6_EN,John will look for the cat in the {RESPONSE}.,"box, basket",basket,2.0,-20.058077700000002,0.0,-21.704794800000002,0.0
+2,gpt-4-turbo-2024-04-09,English,2-EN,8_EN,The cat jumps out of the {RESPONSE}.,"box, basket",box,1.0,-9.3844898e-08,-17.1837398,-22.825371999999998,-9.3844898e-08
+2,gpt-4-turbo-2024-04-09,English,2A-EN,5_EN/2A,John thinks that the cat is in the {RESPONSE}.,"box, chest",box,1.0,-17.2518891,-2.2496618099999998e-05,-17.8334095,-17.2518891
+2,gpt-4-turbo-2024-04-09,English,2A-EN,6_EN/2A,John will look for the cat in the {RESPONSE}.,"box, chest",box,1.0,-18.9937386,-2.2193285599999999e-07,-20.8688837,-18.9937386
+2,gpt-4-turbo-2024-04-09,English,2A-EN,8_EN/2A,The cat jumps out of the {RESPONSE}.,"box, chest",box,1.0,-4.81219486e-07,-15.684395700000001,-22.1842847,-4.81219486e-07
+2,gpt-4-turbo-2024-04-09,English,2B-EN,5_EN/2B,John thinks that the cat is on the {RESPONSE}.,"box, basket",box,1.0,-15.146169750000002,-7.2147084000000005e-06,-18.2442271,-15.146169750000002
+2,gpt-4-turbo-2024-04-09,English,2B-EN,6_EN/2B,John will look for the cat on the {RESPONSE}.,"box, basket",box,1.0,-11.45991157,-8.672355157e-05,-16.9648474,-11.45991157
+2,gpt-4-turbo-2024-04-09,English,2B-EN,8_EN/2B,The cat jumps off of the {RESPONSE}.,"box, basket",box,1.0,-0.00019602969849,-10.56790464,-19.8192744,-0.00019602969849
+2,gpt-4-turbo-2024-04-09,English,2C-EN,5_EN,John thinks that the cat is in the {RESPONSE}.,"box, basket",box,1.0,-0.10639977235,-3.5923704499999998,-18.0120936,-0.10639977235
+2,gpt-4-turbo-2024-04-09,English,2C-EN,6_EN,John will look for the cat in the {RESPONSE}.,"box, basket",box,1.0,-13.208811399999998,-2.9114562240000004e-06,-19.9817267,-13.208811399999998
+2,gpt-4-turbo-2024-04-09,English,2C-EN,8_EN,The cat jumps out of the {RESPONSE}.,"box, basket",box,1.0,-1.9361265e-08,-19.451665900000002,-24.7301856,-1.9361265e-08
+2,gpt-4-turbo-2024-04-09,English,2D-EN,5_EN/2D,Mark thinks that the cat is in the {RESPONSE}.,"box, basket",box,1.0,-0.0002732749124,-8.291530040000001,-18.3724702,-0.0002732749124
+2,gpt-4-turbo-2024-04-09,English,2D-EN,6_EN/2D,Mark will look for the cat in the {RESPONSE}.,"box, basket",box,1.0,-0.007384149223,-5.7912064,-17.917019500000002,-0.007384149223
+2,gpt-4-turbo-2024-04-09,English,2D-EN,8_EN,The cat jumps out of the {RESPONSE}.,"box, basket",box,1.0,-7.5538792e-07,-15.292846599999999,-23.1337461,-7.5538792e-07
+2,gpt-4-turbo-2024-04-09,Turkish,1-TR,1_TR-1,Ezgi torbanın {CEVAP} dolu olduğuna inanıyor.,"patlamış mısır, çikolata",çikolata,2.0,-14.023663299999999,-7.488876950000001e-06,-16.6470725,-7.488876950000001e-06
+2,gpt-4-turbo-2024-04-09,Turkish,1-TR,2_TR,Ezgi bu torbayı bulduğu için çok mutlu. O {CEVAP} yemeyi çok sever.,"patlamış mısır, çikolata",çikolata,2.0,-8.170063086666667,-0.007253255207223333,-16.743099116666667,-0.007253255207223333
+2,gpt-4-turbo-2024-04-09,Turkish,1-TR,4_TR,Ezgi torbayı açar ve içine bakar. Ezgi açık bir şekilde içinin {CEVAP} dolu olduğunu görür.,"patlamış mısır, çikolata",patlamış mısır,1.0,-7.893821700000001e-08,-16.87917373333333,-22.065024,-7.893821700000001e-08
+2,gpt-4-turbo-2024-04-09,Turkish,1A-TR,1_TR-1,Ezgi torbanın {CEVAP} dolu olduğuna inanıyor.,"patlamış mısır, çikolata",patlamış mısır,1.0,-5.39561273,-0.016914581944,-17.5991481,-5.39561273
+2,gpt-4-turbo-2024-04-09,Turkish,1A-TR,2_TR,Ezgi bu torbayı bulduğu için çok mutlu. O {CEVAP} yemeyi çok sever.,"patlamış mısır, çikolata",patlamış mısır,1.0,-4.96186200913,-0.9162314635678332,-16.838844733333335,-4.96186200913
+2,gpt-4-turbo-2024-04-09,Turkish,1A-TR,4_TR,Ezgi torbayı açar ve içine bakar. Ezgi açık bir şekilde içinin {CEVAP} dolu olduğunu görür.,"patlamış mısır, çikolata",patlamış mısır,1.0,-7.299047533333334e-08,-17.171279666666667,-22.708643400000003,-7.299047533333334e-08
+2,gpt-4-turbo-2024-04-09,Turkish,1B-TR,1_TR-1/1B,Ezgi torbanın {CEVAP} dolu olduğuna inanıyor.,"patlamış mısır, çikolata, belirsizlik",belirsizlik,3.0,-9.24676465,-0.51220253413,-2.549640382,-2.549640382
+2,gpt-4-turbo-2024-04-09,Turkish,1B-TR,2_TR/1B,Ezgi bu torbayı bulduğu için çok mutlu. O {CEVAP} yemeyi çok sever.,"patlamış mısır, çikolata, belirsizlik",belirsizlik,3.0,-4.76401940888,-0.9720022865489999,-9.0240659282,-9.0240659282
+2,gpt-4-turbo-2024-04-09,Turkish,1B-TR,4_TR,Ezgi torbayı açar ve içine bakar. Ezgi açık bir şekilde içinin {CEVAP} dolu olduğunu görür.,"patlamış mısır, çikolata",patlamış mısır,1.0,-2.2742434633333335e-07,-16.307237133333334,-21.044647566666665,-2.2742434633333335e-07
+2,gpt-4-turbo-2024-04-09,Turkish,1C-TR,1_TR-1,Ezgi torbanın {CEVAP} dolu olduğuna inanıyor.,"patlamış mısır, çikolata",patlamış mısır,1.0,-0.00319342984,-6.26476582,-17.634303499999998,-0.00319342984
+2,gpt-4-turbo-2024-04-09,Turkish,1C-TR,2_TR,Ezgi bu torbayı bulduğu için çok mutlu. O {CEVAP} yemeyi çok sever.,"patlamış mısır, çikolata",patlamış mısır,1.0,-0.9463864140166667,-2.1691313043433333,-17.3851695,-0.9463864140166667
+2,gpt-4-turbo-2024-04-09,Turkish,1C-TR,4_TR,Ezgi torbayı açar ve içine bakar. Ezgi açık bir şekilde içinin {CEVAP} dolu olduğunu görür.,"patlamış mısır, çikolata",patlamış mısır,1.0,-7.268387435e-06,-15.0315051,-21.524559285714286,-7.268387435e-06
+2,gpt-4-turbo-2024-04-09,Turkish,1D-TR,1_TR-1,Ezgi torbanın {CEVAP} dolu olduğuna inanıyor.,"patlamış mısır, çikolata",patlamış mısır,1.0,-0.282694965,-2.430186487,-17.5492478,-0.282694965
+2,gpt-4-turbo-2024-04-09,Turkish,1D-TR,2_TR,Ezgi bu torbayı bulduğu için çok mutlu. O {CEVAP} yemeyi çok sever.,"patlamış mısır, çikolata",patlamış mısır,1.0,-6.766808702483333,-1.4664227549578233,-18.578066166666666,-6.766808702483333
+2,gpt-4-turbo-2024-04-09,Turkish,1D-TR,4_TR,Ezgi torbayı açar ve içine bakar. Ezgi açık bir şekilde içinin {CEVAP} dolu olduğunu görür.,"patlamış mısır, çikolata",patlamış mısır,1.0,-9.281800654933333e-05,-14.1035606,-21.574936033333334,-9.281800654933333e-05
+2,gpt-4-turbo-2024-04-09,Turkish,2-TR,5_TR-1,Can kedinin {CEVAP} içinde olduğunu düşünüyor.,"kutunun, sepetin",sepetin,2.0,-16.3936666,-4.3023488900000004e-05,-17.4499836,-4.3023488900000004e-05
+2,gpt-4-turbo-2024-04-09,Turkish,2-TR,6_TR,Can kediyi {CEVAP} içinde arayacak.,"kutunun, sepetin",sepetin,2.0,-16.154167100000002,-6.431191456666666e-07,-19.875585100000002,-6.431191456666666e-07
+2,gpt-4-turbo-2024-04-09,Turkish,2-TR,8_TR,Kedi {CEVAP} içinden zıplar.,"kutunun, sepetin",kutunun,1.0,-1.52434708e-07,-17.994759433333336,-21.969608366666666,-1.52434708e-07
+2,gpt-4-turbo-2024-04-09,Turkish,2A-TR,5_TR-1/2A,Can kedinin {CEVAP} içinde olduğunu düşünüyor.,"kutunun, sandığın",kutunun,1.0,-16.1525689,-3.63480843e-05,-17.667724200000002,-16.1525689
+2,gpt-4-turbo-2024-04-09,Turkish,2A-TR,6_TR/2A,Can kediyi {CEVAP} içinde arayacak.,"kutunun, sandığın",kutunun,1.0,-12.909835933333333,-5.057122180000001e-06,-19.144784066666666,-12.909835933333333
+2,gpt-4-turbo-2024-04-09,Turkish,2A-TR,8_TR/2A,Kedi {CEVAP} içinden zıplar.,"kutunun, sandığın",kutunun,1.0,-4.553795843333333e-07,-15.68077455,-20.904619833333335,-4.553795843333333e-07
+2,gpt-4-turbo-2024-04-09,Turkish,2B-TR,5_TR-1/2B,Can kedinin {CEVAP} üstünde olduğunu düşünüyor.,"kutunun, sepetin",kutunun,1.0,-13.92850605,-6.35503604e-05,-17.1775309,-13.92850605
+2,gpt-4-turbo-2024-04-09,Turkish,2B-TR,6_TR/2B,Can kediyi {CEVAP} üstünde arayacak.,"kutunun, sepetin",kutunun,1.0,-15.187796350000001,-1.0181171266666665e-06,-19.655670133333334,-15.187796350000001
+2,gpt-4-turbo-2024-04-09,Turkish,2B-TR,8_TR/2B,Kedi {CEVAP} üstünden zıplar.,"kutunun, sepetin",kutunun,1.0,-8.427790686666666e-07,-14.585311816666666,-20.280966499999998,-8.427790686666666e-07
+2,gpt-4-turbo-2024-04-09,Turkish,2C-TR,5_TR-1,Can kedinin {CEVAP} içinde olduğunu düşünüyor.,"kutunun, sepetin",kutunun,1.0,-7.09584323,-0.0072784355464,-17.7327652,-7.09584323
+2,gpt-4-turbo-2024-04-09,Turkish,2C-TR,6_TR,Can kediyi {CEVAP} içinde arayacak.,"kutunun, sepetin",kutunun,1.0,-6.183349103666667,-0.26740624729946666,-17.958793766666666,-6.183349103666667
+2,gpt-4-turbo-2024-04-09,Turkish,2C-TR,8_TR,Kedi {CEVAP} içinden zıplar.,"kutunun, sepetin",kutunun,1.0,-2.780672456666667e-07,-16.413606716666667,-21.0900081,-2.780672456666667e-07
+2,gpt-4-turbo-2024-04-09,Turkish,2D-TR,5_TR-1/2D,Mehmet kedinin {CEVAP} içinde olduğunu düşünüyor.,"kutunun, sepetin",kutunun,1.0,-0.008403970417,-6.11688625,-17.6807299,-0.008403970417
+2,gpt-4-turbo-2024-04-09,Turkish,2D-TR,6_TR/2D,Mehmet kediyi {CEVAP} içinde arayacak.,"kutunun, sepetin",kutunun,1.0,-0.00012442235843333334,-9.39562987,-18.018696366666667,-0.00012442235843333334
+2,gpt-4-turbo-2024-04-09,Turkish,2D-TR,8_TR,Kedi {CEVAP} içinden zıplar.,"kutunun, sepetin",kutunun,1.0,-2.451041421e-06,-14.4462742,-21.0099146,-2.451041421e-06
+2,gpt-4-turbo-2024-04-09,Turkish-san,1-TR,1_TR-3,Ezgi torbanın {CEVAP} dolu olduğunu sanıyor.,"patlamış mısır, çikolata",çikolata,2.0,-15.743337550000001,-4.8187148000000005e-06,-17.2805353,-4.8187148000000005e-06
+2,gpt-4-turbo-2024-04-09,Turkish-san,1A-TR,1_TR-3,Ezgi torbanın {CEVAP} dolu olduğunu sanıyor.,"patlamış mısır, çikolata",patlamış mısır,1.0,-14.9535996,-5.3789721000000005e-06,-17.168795199999998,-14.9535996
+2,gpt-4-turbo-2024-04-09,Turkish-san,1B-TR,1_TR-3/1B,Ezgi torbanın {CEVAP} dolu olduğunu sanıyor.,"patlamış mısır, çikolata, belirsizlik",belirsizlik,3.0,-10.4284476,-0.15461569635800002,-4.957025122999999,-4.957025122999999
+2,gpt-4-turbo-2024-04-09,Turkish-san,1C-TR,1_TR-3,Ezgi torbanın {CEVAP} dolu olduğunu sanıyor.,"patlamış mısır, çikolata",patlamış mısır,1.0,-5.7245589500000005,-0.007099448173,-16.896120200000002,-5.7245589500000005
+2,gpt-4-turbo-2024-04-09,Turkish-san,1D-TR,1_TR-3,Ezgi torbanın {CEVAP} dolu olduğunu sanıyor.,"patlamış mısır, çikolata",patlamış mısır,1.0,-6.99086838,-0.002692035223,-17.0256445,-6.99086838
+2,gpt-4-turbo-2024-04-09,Turkish-san,2-TR,5_TR-3,Can kedinin {CEVAP} içinde olduğunu sanıyor.,"kutunun, sepetin",sepetin,2.0,-16.3231773,-3.21044335e-05,-17.3075192,-3.21044335e-05
+2,gpt-4-turbo-2024-04-09,Turkish-san,2A-TR,5_TR-3/2A,Can kedinin {CEVAP} içinde olduğunu sanıyor.,"kutunun, sandığın",kutunun,1.0,-15.966484600000001,-2.32356808e-05,-17.4428939,-15.966484600000001
+2,gpt-4-turbo-2024-04-09,Turkish-san,2B-TR,5_TR-3/2B,Can kedinin {CEVAP} üstünde olduğunu sanıyor.,"kutunun, sepetin",kutunun,1.0,-13.356353649999999,-4.9269761e-05,-16.4173045,-13.356353649999999
+2,gpt-4-turbo-2024-04-09,Turkish-san,2C-TR,5_TR-3,Can kedinin {CEVAP} içinde olduğunu sanıyor.,"kutunun, sepetin",kutunun,1.0,-6.707147399999999,-0.0091537795,-16.7059425,-6.707147399999999
+2,gpt-4-turbo-2024-04-09,Turkish-san,2D-TR,5_TR-3/2D,Mehmet kedinin {CEVAP} içinde olduğunu sanıyor.,"kutunun, sepetin",kutunun,1.0,-0.005892487349,-6.21845416,-16.4839887,-0.005892487349
+2,gpt-4-turbo-2024-04-09,Turkish-zan,1-TR,1_TR-2,Ezgi torbanın {CEVAP} dolu olduğunu zannediyor.,"patlamış mısır, çikolata",çikolata,2.0,-15.317322999999998,-5.54585714e-06,-16.8729868,-5.54585714e-06
+2,gpt-4-turbo-2024-04-09,Turkish-zan,1A-TR,1_TR-2,Ezgi torbanın {CEVAP} dolu olduğunu zannediyor.,"patlamış mısır, çikolata",patlamış mısır,1.0,-13.9867387,-8.51402831e-06,-16.8539809,-13.9867387
+2,gpt-4-turbo-2024-04-09,Turkish-zan,1B-TR,1_TR-2/1B,Ezgi torbanın {CEVAP} dolu olduğunu zannediyor.,"patlamış mısır, çikolata, belirsizlik",belirsizlik,3.0,-8.35562429,-1.020505738,-1.159935976,-1.159935976
+2,gpt-4-turbo-2024-04-09,Turkish-zan,1C-TR,1_TR-2,Ezgi torbanın {CEVAP} dolu olduğunu zannediyor.,"patlamış mısır, çikolata",patlamış mısır,1.0,-0.853256764,-1.195933697,-17.5136623,-0.853256764
+2,gpt-4-turbo-2024-04-09,Turkish-zan,1D-TR,1_TR-2,Ezgi torbanın {CEVAP} dolu olduğunu zannediyor.,"patlamış mısır, çikolata",patlamış mısır,1.0,-7.39634203,-0.0097141398214,-16.5338247,-7.39634203
+2,gpt-4-turbo-2024-04-09,Turkish-zan,2-TR,5_TR-2,Can kedinin {CEVAP} içinde olduğunu zannediyor.,"kutunun, sepetin",sepetin,2.0,-16.24848465,-2.88740138e-05,-17.382269400000002,-2.88740138e-05
+2,gpt-4-turbo-2024-04-09,Turkish-zan,2A-TR,5_TR-2/2A,Can kedinin {CEVAP} içinde olduğunu zannediyor.,"kutunun, sandığın",kutunun,1.0,-14.15470325,-3.3236867799999996e-05,-16.719056799999997,-14.15470325
+2,gpt-4-turbo-2024-04-09,Turkish-zan,2B-TR,5_TR-2/2B,Can kedinin {CEVAP} üstünde olduğunu zannediyor.,"kutunun, sepetin",kutunun,1.0,-11.100196700000001,-9.42788645e-05,-16.2241996,-11.100196700000001
+2,gpt-4-turbo-2024-04-09,Turkish-zan,2C-TR,5_TR-2,Can kedinin {CEVAP} içinde olduğunu zannediyor.,"kutunun, sepetin",kutunun,1.0,-4.30521313883,-1.870566675276,-17.4159411,-4.30521313883
+2,gpt-4-turbo-2024-04-09,Turkish-zan,2D-TR,5_TR-2/2D,Mehmet kedinin {CEVAP} içinde olduğunu zannediyor.,"kutunun, sepetin",kutunun,1.0,-8.50737737e-05,-10.4744049,-16.1647697,-8.50737737e-05
+3,gpt-3.5-turbo-0125,English,3A-EN,11_EN,Bea believes that Karen bought some {RESPONSE}.,"chocolate cake, honey buns, cinnamon cookies",honey buns,2.0,-3.8499028799999997,-0.659960508,-1.002069425,-0.659960508
+3,gpt-3.5-turbo-0125,English,3A-EN,12_EN,Does Karen know that Bruce told Bea that there isn’t any chocolate cake at the bazaar?,"Yes, No",No,2.0,-1.044323165,-0.438853851,-11.8344053,-0.438853851
+3,gpt-3.5-turbo-0125,English,3A-EN,13_EN,Karen bought some {RESPONSE} from the bazaar.,"chocolate cake, honey buns, cinnamon cookies",cinnamon cookies,3.0,-8.23098082,-7.0770082599999995,-0.00121465009,-0.00121465009
+3,gpt-3.5-turbo-0125,English,3A-EN,14_EN,Bruce believes that {RESPONSE} is being sold at the bazaar.,"chocolate cake, honey buns, cinnamon cookies",honey buns,2.0,-5.86023613,-0.0184485335,-4.24373863,-0.0184485335
+3,gpt-3.5-turbo-0125,English,3A-EN,9_EN,"According to Karen, Bea believes that Karen bought some {RESPONSE}.","chocolate cake, honey buns, cinnamon cookies",chocolate cake,1.0,-5.58195666,-3.1000332,-0.0663236835,-5.58195666
+3,gpt-3.5-turbo-0125,English,3B-EN,15_EN,Rebecca thinks that her mother got her a {RESPONSE} for her birthday.,"cat, toy",cat,1.0,-0.01843180103,-4.11858629,-13.960040850000002,-0.01843180103
+3,gpt-3.5-turbo-0125,English,3B-EN,17_EN,Rebecca’s mother got Rebbecca a {RESPONSE} for her birthday.,"cat, toy",cat,1.0,-0.79653231,-0.715113149,-12.2146163,-0.79653231
+3,gpt-3.5-turbo-0125,English,3B-EN,18_EN,"According to Rebecca’s mother, Rebecca thinks that she will get a {RESPONSE} for her birthday.","cat, toy",toy,2.0,-2.7499268129999996,-0.2566448828,-11.09422905,-0.2566448828
+3,gpt-3.5-turbo-0125,English,3B-EN,19_EN,Does Rebecca’s mother know that Rebecca saw the cat?,"Yes, No",No,2.0,-0.9756800990000001,-0.5064357079999999,-13.02690585,-0.5064357079999999
+3,gpt-3.5-turbo-0125,English,4A-EN,21_EN,Dwight believes that Jane will look for the pie inside of the {RESPONSE}.,"cupboard, basket, drawer",cupboard,1.0,-6.19892479,-7.861334359999999,-0.00280156212,-6.19892479
+3,gpt-3.5-turbo-0125,English,4A-EN,23_EN,Does Jane know that Dwight put the pie in the basket?,"Yes, No",Yes,1.0,-0.840593557,-0.6341263159999999,-11.3238787,-0.840593557
+3,gpt-3.5-turbo-0125,English,4A-EN,24_EN,Does Dwight know that Jane saw him put the pie in the basket?,"Yes, No",No,2.0,-4.8460426,-0.00975630067,-11.93910435,-0.00975630067
+3,gpt-3.5-turbo-0125,English,4A-EN,25_EN,The pie is actually in the {RESPONSE}.,"cupboard, basket, drawer",drawer,3.0,-7.75737439,-8.36752143,-0.000711692101,-0.000711692101
+3,gpt-3.5-turbo-0125,English,4A-EN,26_EN,Jane believes that the pie is in the {RESPONSE}.,"cupboard, basket, drawer",basket,2.0,-4.31876413,-3.5616120199999997,-0.0653592369,-3.5616120199999997
+3,gpt-3.5-turbo-0125,English,4A-EN,27_EN,Jane will look for the pie in the {RESPONSE}.,"cupboard, basket, drawer",basket,2.0,-3.9122894199999996,-5.151787329999999,-0.05218198129,-5.151787329999999
+3,gpt-3.5-turbo-0125,English,4A-EN,28_EN,Dwight believes that the pie is in the {RESPONSE}.,"cupboard, basket, drawer",basket,2.0,-3.3520329099999997,-4.27188235,-0.0578810155,-4.27188235
+3,gpt-3.5-turbo-0125,English,4B-EN,29_EN,John thinks that Catherine went to the {RESPONSE} to buy some balloons.,"park, school, shopping mall",park,1.0,-6.73062946,-3.8941159300000003,-0.0237239641,-6.73062946
+3,gpt-3.5-turbo-0125,English,4B-EN,31_EN,Does John know that the balloon man told Catherine where he would be going?,"Yes, No",No,2.0,-0.5515504659999999,-0.92328107,-13.236611400000001,-0.92328107
+3,gpt-3.5-turbo-0125,English,4B-EN,32_EN,The balloon man is at the {RESPONSE}.,"park, school, shopping mall",shopping mall,3.0,-6.03493935,-2.6842235600000004,-0.10531498990000002,-0.10531498990000002
+3,gpt-3.5-turbo-0125,English,4B-EN,33_EN,Catherine thinks that the balloon man is at the {RESPONSE}.,"park, school, shopping mall",school,2.0,-4.2239446,-1.27394143,-0.36933443,-1.27394143
+3,gpt-3.5-turbo-0125,English,4B-EN,34_EN,Catherine will look for the balloon man at the {RESPONSE}.,"park, school, shopping mall",school,2.0,-5.36341032,-4.054380709999999,-0.024756619299999998,-4.054380709999999
+3,gpt-3.5-turbo-0125,English,4B-EN,35_EN,John thinks that the balloon man is at the {RESPONSE}.,"park, school, shopping mall",school,2.0,-3.7886358199999997,-1.799008615,-0.26275274839999996,-1.799008615
+3,gpt-3.5-turbo-0125,Turkish,3A-TR,11_TR-1,"Ece, Selin'in kermesten {CEVAP} satın aldığına inanıyor.","çikolatalı kek, ballı çörek, tarçınlı kurabiye",ballı çörek,2.0,-1.690166686,-2.1818029460000004,-1.3764024856,-2.1818029460000004
+3,gpt-3.5-turbo-0125,Turkish,3A-TR,12_TR,"Selin, Okan’ın Ece’ye kermeste çikolatalı kek olmadığını söylediğini biliyor mu?","Evet, Hayır",Hayır,2.0,-0.7900338313333334,-0.6214537143333333,-11.258899966666666,-0.6214537143333333
+3,gpt-3.5-turbo-0125,Turkish,3A-TR,13_TR,Selin kermesten {CEVAP} aldı.,"çikolatalı kek, ballı çörek, tarçınlı kurabiye",tarçınlı kurabiye,3.0,-7.096400013333334,-1.1785081723333335,-0.6158340858666667,-0.6158340858666667
+3,gpt-3.5-turbo-0125,Turkish,3A-TR,14_TR-1,Okan kermeste {CEVAP} satıldığına inanıyor.,"çikolatalı kek, ballı çörek, tarçınlı kurabiye",ballı çörek,2.0,-4.20332111,-0.067118157,-3.1764706699999996,-0.067118157
+3,gpt-3.5-turbo-0125,Turkish,3A-TR,9_TR-1,"Selin’e göre, Ece Selin’in {CEVAP} satın aldığına inanıyor.","çikolatalı kek, ballı çörek, tarçınlı kurabiye",çikolatalı kek,1.0,-2.65643737,-0.8930407459999999,-0.703937996,-2.65643737
+3,gpt-3.5-turbo-0125,Turkish,3B-TR,15_TR-1,"Melis, annesinin ona doğum günü hediyesi olarak {CEVAP} aldığını düşünüyor.","kedi, oyuncak",kedi,1.0,-0.00812873046,-5.07824119,-11.7222388,-0.00812873046
+3,gpt-3.5-turbo-0125,Turkish,3B-TR,17_TR,Melis’in annesi doğum günü içim Melis’e {CEVAP} aldı.,"kedi, oyuncak",kedi,1.0,-1.4782985058000002,-0.45059052503333336,-11.408990233333332,-1.4782985058000002
+3,gpt-3.5-turbo-0125,Turkish,3B-TR,18_TR-1,"Melis’in annesine göre, Melis doğum günü hediyesi olarak {CEVAP} alacağını düşünüyor.","kedi, oyuncak",oyuncak,2.0,-0.321476773,-1.470469872,-10.93548165,-1.470469872
+3,gpt-3.5-turbo-0125,Turkish,3B-TR,19_TR,Melis’in annesi Melis’in kediyi gördüğünü biliyor mu?,"Evet, Hayır",Hayır,2.0,-2.747781316666667,-0.0830745139,-11.515712066666667,-0.0830745139
+3,gpt-3.5-turbo-0125,Turkish,4A-TR,21_TR-1,"Burak, Nihal’in turtayı aramak için {CEVAP} içine bakacağına inanıyor.","dolabın, sepetin, çekmecenin",dolabın,1.0,-5.16520731,-2.99272135,-0.0635490126,-5.16520731
+3,gpt-3.5-turbo-0125,Turkish,4A-TR,23_TR,"Nihal, Burak'ın turtayı sepete koyduğunu biliyor mu?","Evet, Hayır",Evet,1.0,-3.7279719333333334,-0.02702410096666667,-11.403954716666668,-3.7279719333333334
+3,gpt-3.5-turbo-0125,Turkish,4A-TR,24_TR,"Burak, Nihal'in onu turtayı sepete koyarken gördüğünü biliyor mu?","Evet, Hayır",Hayır,2.0,-1.7832820299999999,-0.20451266133333332,-11.215170016666667,-0.20451266133333332
+3,gpt-3.5-turbo-0125,Turkish,4A-TR,25_TR,Turta aslında {CEVAP} içinde bulunmaktadır.,"dolabın, sepetin, çekmecenin",çekmecenin,3.0,-2.678478976666667,-2.2554286133333337,-0.2385035543333333,-0.2385035543333333
+3,gpt-3.5-turbo-0125,Turkish,4A-TR,26_TR-1,Nihal turtanın {CEVAP} içinde olduğuna inanıyor.,"dolabın, sepetin, çekmecenin",sepetin,2.0,-1.6372361500000001,-0.31904084099999996,-2.89944136,-0.31904084099999996
+3,gpt-3.5-turbo-0125,Turkish,4A-TR,27_TR,Nihal turtayı {CEVAP} içinde arayacak.,"dolabın, sepetin, çekmecenin",sepetin,2.0,-3.3098040733333334,-2.285891679666667,-0.34984794746666664,-2.285891679666667
+3,gpt-3.5-turbo-0125,Turkish,4A-TR,28_TR-1,Burak turtanın {CEVAP} içinde olduğuna inanıyor.,"dolabın, sepetin, çekmecenin",sepetin,2.0,-2.44221233,-0.9294537246000001,-2.0977054981000003,-0.9294537246000001
+3,gpt-3.5-turbo-0125,Turkish,4B-TR,29_TR-1,"Can, Gamzenin balon almak için {CEVAP} gittiğini düşünüyor.","parka, okula, alışveriş merkezine",parka,1.0,-3.05057753,-0.28981513799999997,-1.71955091,-3.05057753
+3,gpt-3.5-turbo-0125,Turkish,4B-TR,31_TR,"Can, baloncunun Gamze’ye nereye gittiğini söylediğini biliyor mu?","Evet, Hayır",Hayır,2.0,-2.7396595933333336,-0.0697363074,-11.333352666666666,-0.0697363074
+3,gpt-3.5-turbo-0125,Turkish,4B-TR,32_TR,Baloncu aslında {CEVAP} bulunmaktadır.,"parkta, okulda, alışveriş merkezinde",alışveriş merkezinde,3.0,-1.84838338,-3.7369717933333333,-0.22544507416666668,-0.22544507416666668
+3,gpt-3.5-turbo-0125,Turkish,4B-TR,33_TR-1,Gamze baloncunun {CEVAP} olduğunu düşünüyor.,"parkta, okulda, alışveriş merkezinde",okulda,2.0,-0.568511435,-0.9900032529999999,-4.17466252,-0.9900032529999999
+3,gpt-3.5-turbo-0125,Turkish,4B-TR,34_TR,Gamze'nin baloncuyu bulmak için gideceği yer {CEVAP}.,"park, okul, alışveriş merkezi",okul,2.0,-2.1881029203333333,-3.83287207,-0.2661119030333333,-3.83287207
+3,gpt-3.5-turbo-0125,Turkish,4B-TR,35_TR-1,Can baloncunun {CEVAP} olduğunu düşünüyor.,"parkta, okulda, alışveriş merkezinde",okulda,2.0,-2.50163464,-0.730709481,-1.006009516,-0.730709481
+3,gpt-3.5-turbo-0125,Turkish-san,3A-TR,11_TR-3,"Ece, Selin'in kermesten {CEVAP} satın aldığını sanıyor.","çikolatalı kek, ballı çörek, tarçınlı kurabiye",ballı çörek,2.0,-0.8788904220000001,-0.951972984,-2.9598966,-0.951972984
+3,gpt-3.5-turbo-0125,Turkish-san,3A-TR,14_TR-3,Okan kermeste {CEVAP} satıldığını sanıyor.,"çikolatalı kek, ballı çörek, tarçınlı kurabiye",ballı çörek,2.0,-3.98171487,-0.0667156679,-3.6527332899999996,-0.0667156679
+3,gpt-3.5-turbo-0125,Turkish-san,3A-TR,9_TR-3,"Selin’e göre, Ece Selin’in {CEVAP} satın aldığını sanıyor.","çikolatalı kek, ballı çörek, tarçınlı kurabiye",çikolatalı kek,1.0,-2.9413684499999997,-1.095311537,-0.543921266,-2.9413684499999997
+3,gpt-3.5-turbo-0125,Turkish-san,3B-TR,15_TR-3,"Melis, annesinin ona doğum günü hediyesi olarak {CEVAP} aldığını sanıyor.","kedi, oyuncak",kedi,1.0,-0.033703429699999995,-4.02511567,-11.16300575,-0.033703429699999995
+3,gpt-3.5-turbo-0125,Turkish-san,3B-TR,18_TR-3,"Melis’in annesine göre, Melis doğum günü hediyesi olarak {CEVAP} alacağını sanıyor.","kedi, oyuncak",oyuncak,2.0,-0.39924103020999996,-3.564880737,-12.6135863,-3.564880737
+3,gpt-3.5-turbo-0125,Turkish-san,4A-TR,21_TR-3,"Burak, Nihal’in turtayı aramak için {CEVAP} içine bakacağını sanıyor.","dolabın, sepetin, çekmecenin",dolabın,1.0,-4.9876092,-2.84537636,-0.0872505114,-4.9876092
+3,gpt-3.5-turbo-0125,Turkish-san,4A-TR,26_TR-3,Nihal turtanın {CEVAP} içinde olduğunu sanıyor.,"dolabın, sepetin, çekmecenin",sepetin,2.0,-1.64093615,-0.271068058,-3.33291021,-0.271068058
+3,gpt-3.5-turbo-0125,Turkish-san,4A-TR,28_TR-3,Burak turtanın {CEVAP} içinde olduğunu sanıyor.,"dolabın, sepetin, çekmecenin",sepetin,2.0,-2.3309888699999997,-0.1619770176,-3.2373893799999998,-0.1619770176
+3,gpt-3.5-turbo-0125,Turkish-san,4B-TR,29_TR-3,"Can, Gamzenin balon almak için {CEVAP} gittiğini sanıyor.","parka, okula, alışveriş merkezine",parka,1.0,-2.9963396199999996,-0.16439990300000001,-2.38894616,-2.9963396199999996
+3,gpt-3.5-turbo-0125,Turkish-san,4B-TR,33_TR-3,Gamze baloncunun {CEVAP} olduğunu sanıyor.,"parkta, okulda, alışveriş merkezinde",okulda,2.0,-1.348689538,-0.412143788,-4.17466835,-0.412143788
+3,gpt-3.5-turbo-0125,Turkish-san,4B-TR,35_TR-3,Can baloncunun {CEVAP} olduğunu sanıyor.,"parkta, okulda, alışveriş merkezinde",okulda,2.0,-2.89351458,-0.730259115,-0.813331199,-0.730259115
+3,gpt-3.5-turbo-0125,Turkish-zan,3A-TR,11_TR-2,"Ece, Selin'in kermesten {CEVAP} satın aldığını zannediyor.","çikolatalı kek, ballı çörek, tarçınlı kurabiye",ballı çörek,2.0,-1.374074499,-0.525541241,-3.41420324,-0.525541241
+3,gpt-3.5-turbo-0125,Turkish-zan,3A-TR,14_TR-2,Okan kermeste {CEVAP} satıldığını zannediyor.,"çikolatalı kek, ballı çörek, tarçınlı kurabiye",ballı çörek,2.0,-4.26346419,-0.072643491,-3.43593541,-0.072643491
+3,gpt-3.5-turbo-0125,Turkish-zan,3A-TR,9_TR-2,"Selin’e göre, Ece Selin’in {CEVAP} satın aldığını zannediyor.","çikolatalı kek, ballı çörek, tarçınlı kurabiye",çikolatalı kek,1.0,-2.94140676,-1.057953026,-0.580788182,-2.94140676
+3,gpt-3.5-turbo-0125,Turkish-zan,3B-TR,15_TR-2,"Melis, annesinin ona doğum günü hediyesi olarak {CEVAP} aldığını zannediyor.","kedi, oyuncak",kedi,1.0,-0.01993944358,-4.6913531200000005,-11.693612400000001,-0.01993944358
+3,gpt-3.5-turbo-0125,Turkish-zan,3B-TR,18_TR-2,"Melis’in annesine göre, Melis doğum günü hediyesi olarak {CEVAP} alacağını zannediyor.","kedi, oyuncak",oyuncak,2.0,-0.42045344050000005,-1.665990597,-11.97757665,-1.665990597
+3,gpt-3.5-turbo-0125,Turkish-zan,4A-TR,21_TR-2,"Burak, Nihal’in turtayı aramak için {CEVAP} içine bakacağını zannediyor.","dolabın, sepetin, çekmecenin",dolabın,1.0,-4.7776268,-2.22956036,-0.1459715535,-4.7776268
+3,gpt-3.5-turbo-0125,Turkish-zan,4A-TR,26_TR-2,Nihal turtanın {CEVAP} içinde olduğunu zannediyor.,"dolabın, sepetin, çekmecenin",sepetin,2.0,-1.65262503,-0.253588833,-4.10126525,-0.253588833
+3,gpt-3.5-turbo-0125,Turkish-zan,4A-TR,28_TR-2,Burak turtanın {CEVAP} içinde olduğunu zannediyor.,"dolabın, sepetin, çekmecenin",sepetin,2.0,-2.1663432499999997,-0.1676942165,-3.48019349,-0.1676942165
+3,gpt-3.5-turbo-0125,Turkish-zan,4B-TR,29_TR-2,"Can, Gamzenin balon almak için {CEVAP} gittiğini zannediyor.","parka, okula, alışveriş merkezine",parka,1.0,-2.74474349,-0.21915581999999997,-2.19443981,-2.74474349
+3,gpt-3.5-turbo-0125,Turkish-zan,4B-TR,33_TR-2,Gamze baloncunun {CEVAP} olduğunu zannediyor.,"parkta, okulda, alışveriş merkezinde",okulda,2.0,-1.062255357,-0.528855567,-4.21996708,-0.528855567
+3,gpt-3.5-turbo-0125,Turkish-zan,4B-TR,35_TR-2,Can baloncunun {CEVAP} olduğunu zannediyor.,"parkta, okulda, alışveriş merkezinde",okulda,2.0,-3.06858776,-0.8844867009999999,-0.7760985469999999,-0.8844867009999999
+3,gpt-4-turbo-2024-04-09,English,3A-EN,11_EN,Bea believes that Karen bought some {RESPONSE}.,"chocolate cake, honey buns, cinnamon cookies",honey buns,2.0,-0.000457075422,-8.219005970000001,-9.676995049999999,-8.219005970000001
+3,gpt-4-turbo-2024-04-09,English,3A-EN,12_EN,Does Karen know that Bruce told Bea that there isn’t any chocolate cake at the bazaar?,"Yes, No",No,2.0,-18.995890199999998,0.0,-21.283717799999998,0.0
+3,gpt-4-turbo-2024-04-09,English,3A-EN,13_EN,Karen bought some {RESPONSE} from the bazaar.,"chocolate cake, honey buns, cinnamon cookies",cinnamon cookies,3.0,-25.902565400000004,-23.8391035,0.0,0.0
+3,gpt-4-turbo-2024-04-09,English,3A-EN,14_EN,Bruce believes that {RESPONSE} is being sold at the bazaar.,"chocolate cake, honey buns, cinnamon cookies",honey buns,2.0,-15.794673499999998,-2.17453386e-07,-17.1497705,-2.17453386e-07
+3,gpt-4-turbo-2024-04-09,English,3A-EN,9_EN,"According to Karen, Bea believes that Karen bought some {RESPONSE}.","chocolate cake, honey buns, cinnamon cookies",chocolate cake,1.0,-4.008130014e-06,-15.2143477,-14.305237,-4.008130014e-06
+3,gpt-4-turbo-2024-04-09,English,3B-EN,15_EN,Rebecca thinks that her mother got her a {RESPONSE} for her birthday.,"cat, toy",cat,1.0,-0.01516335111,-5.79327489,-18.3481414,-0.01516335111
+3,gpt-4-turbo-2024-04-09,English,3B-EN,17_EN,Rebecca’s mother got Rebbecca a {RESPONSE} for her birthday.,"cat, toy",cat,1.0,-18.4262844,-1.5640816300000002e-07,-21.598123100000002,-18.4262844
+3,gpt-4-turbo-2024-04-09,English,3B-EN,18_EN,"According to Rebecca’s mother, Rebecca thinks that she will get a {RESPONSE} for her birthday.","cat, toy",toy,2.0,-10.5376232,-3.1913708449999996e-05,-20.6380622,-3.1913708449999996e-05
+3,gpt-4-turbo-2024-04-09,English,3B-EN,19_EN,Does Rebecca’s mother know that Rebecca saw the cat?,"Yes, No",No,2.0,-18.4697529,-1.9361265e-08,-22.3724946,-1.9361265e-08
+3,gpt-4-turbo-2024-04-09,English,4A-EN,21_EN,Dwight believes that Jane will look for the pie inside of the {RESPONSE}.,"cupboard, basket, drawer",cupboard,1.0,-11.2352396,-7.226231390000001e-05,-10.139357350000001,-11.2352396
+3,gpt-4-turbo-2024-04-09,English,4A-EN,23_EN,Does Jane know that Dwight put the pie in the basket?,"Yes, No",Yes,1.0,0.0,-20.8800399,-24.3258781,0.0
+3,gpt-4-turbo-2024-04-09,English,4A-EN,24_EN,Does Dwight know that Jane saw him put the pie in the basket?,"Yes, No",No,2.0,-22.267314300000002,0.0,-22.9284426,0.0
+3,gpt-4-turbo-2024-04-09,English,4A-EN,25_EN,The pie is actually in the {RESPONSE}.,"cupboard, basket, drawer",drawer,3.0,-25.082953,-24.724331,0.0,0.0
+3,gpt-4-turbo-2024-04-09,English,4A-EN,26_EN,Jane believes that the pie is in the {RESPONSE}.,"cupboard, basket, drawer",basket,2.0,-12.3463088,-0.0018319646919999998,-6.532509350000001,-0.0018319646919999998
+3,gpt-4-turbo-2024-04-09,English,4A-EN,27_EN,Jane will look for the pie in the {RESPONSE}.,"cupboard, basket, drawer",basket,2.0,-10.98501105,-0.11030578145,-2.71797829,-0.11030578145
+3,gpt-4-turbo-2024-04-09,English,4A-EN,28_EN,Dwight believes that the pie is in the {RESPONSE}.,"cupboard, basket, drawer",basket,2.0,-10.09652715,-0.00023624658599999998,-8.97762506,-0.00023624658599999998
+3,gpt-4-turbo-2024-04-09,English,4B-EN,29_EN,John thinks that Catherine went to the {RESPONSE} to buy some balloons.,"park, school, shopping mall",park,1.0,-9.25599186,-4.22139571,-0.0180567952,-9.25599186
+3,gpt-4-turbo-2024-04-09,English,4B-EN,31_EN,Does John know that the balloon man told Catherine where he would be going?,"Yes, No",No,2.0,-11.345497550000001,-2.901632547e-05,-16.9179549,-2.901632547e-05
+3,gpt-4-turbo-2024-04-09,English,4B-EN,32_EN,The balloon man is at the {RESPONSE}.,"park, school, shopping mall",shopping mall,3.0,-22.1778446,-20.9772007,0.0,0.0
+3,gpt-4-turbo-2024-04-09,English,4B-EN,33_EN,Catherine thinks that the balloon man is at the {RESPONSE}.,"park, school, shopping mall",school,2.0,-13.7624066,-0.0002965704441,-8.6031798,-0.0002965704441
+3,gpt-4-turbo-2024-04-09,English,4B-EN,34_EN,Catherine will look for the balloon man at the {RESPONSE}.,"park, school, shopping mall",school,2.0,-13.199515600000002,-0.015239443437,-5.19643723,-0.015239443437
+3,gpt-4-turbo-2024-04-09,English,4B-EN,35_EN,John thinks that the balloon man is at the {RESPONSE}.,"park, school, shopping mall",school,2.0,-1.2664065323,-6.519527689999999,-1.1137221088,-6.519527689999999
+3,gpt-4-turbo-2024-04-09,Turkish,3A-TR,11_TR-1,"Ece, Selin'in kermesten {CEVAP} satın aldığına inanıyor.","çikolatalı kek, ballı çörek, tarçınlı kurabiye",ballı çörek,2.0,-0.01139019973,-5.29225218,-6.78119112,-5.29225218
+3,gpt-4-turbo-2024-04-09,Turkish,3A-TR,12_TR,"Selin, Okan’ın Ece’ye kermeste çikolatalı kek olmadığını söylediğini biliyor mu?","Evet, Hayır",Hayır,2.0,-13.76850165,-1.5127998656666668e-06,-20.006281633333334,-1.5127998656666668e-06
+3,gpt-4-turbo-2024-04-09,Turkish,3A-TR,13_TR,Selin kermesten {CEVAP} aldı.,"çikolatalı kek, ballı çörek, tarçınlı kurabiye",tarçınlı kurabiye,3.0,-23.7750876,-20.462522433333334,0.0,0.0
+3,gpt-4-turbo-2024-04-09,Turkish,3A-TR,14_TR-1,Okan kermeste {CEVAP} satıldığına inanıyor.,"çikolatalı kek, ballı çörek, tarçınlı kurabiye",ballı çörek,2.0,-13.9926096,-2.18431385e-06,-13.7863492,-2.18431385e-06
+3,gpt-4-turbo-2024-04-09,Turkish,3A-TR,9_TR-1,"Selin’e göre, Ece Selin’in {CEVAP} satın aldığına inanıyor.","çikolatalı kek, ballı çörek, tarçınlı kurabiye",çikolatalı kek,1.0,-0.000393730595,-9.17210765,-8.535446949999999,-0.000393730595
+3,gpt-4-turbo-2024-04-09,Turkish,3B-TR,15_TR-1,"Melis, annesinin ona doğum günü hediyesi olarak {CEVAP} aldığını düşünüyor.","kedi, oyuncak",kedi,1.0,-0.56062742623,-1.574357671,-17.4866771,-0.56062742623
+3,gpt-4-turbo-2024-04-09,Turkish,3B-TR,17_TR,Melis’in annesi doğum günü içim Melis’e {CEVAP} aldı.,"kedi, oyuncak",kedi,1.0,-15.361801983333333,-7.31041159e-07,-21.692459833333334,-15.361801983333333
+3,gpt-4-turbo-2024-04-09,Turkish,3B-TR,18_TR-1,"Melis’in annesine göre, Melis doğum günü hediyesi olarak {CEVAP} alacağını düşünüyor.","kedi, oyuncak",oyuncak,2.0,-10.25025157,-0.0019051394936299999,-19.2403246,-0.0019051394936299999
+3,gpt-4-turbo-2024-04-09,Turkish,3B-TR,19_TR,Melis’in annesi Melis’in kediyi gördüğünü biliyor mu?,"Evet, Hayır",Hayır,2.0,-17.3999543,-8.1418516e-08,-22.788669233333334,-8.1418516e-08
+3,gpt-4-turbo-2024-04-09,Turkish,4A-TR,21_TR-1,"Burak, Nihal’in turtayı aramak için {CEVAP} içine bakacağına inanıyor.","dolabın, sepetin, çekmecenin",dolabın,1.0,-7.53429005,-0.001922010768,-7.5684799300000005,-7.53429005
+3,gpt-4-turbo-2024-04-09,Turkish,4A-TR,23_TR,"Nihal, Burak'ın turtayı sepete koyduğunu biliyor mu?","Evet, Hayır",Evet,1.0,-0.003578884103866667,-8.869648333333334,-18.216699766666668,-0.003578884103866667
+3,gpt-4-turbo-2024-04-09,Turkish,4A-TR,24_TR,"Burak, Nihal'in onu turtayı sepete koyarken gördüğünü biliyor mu?","Evet, Hayır",Hayır,2.0,-16.44817133333333,-1.5440899133333334e-07,-21.152496233333334,-1.5440899133333334e-07
+3,gpt-4-turbo-2024-04-09,Turkish,4A-TR,25_TR,Turta aslında {CEVAP} içinde bulunmaktadır.,"dolabın, sepetin, çekmecenin",çekmecenin,3.0,-20.010337,-17.9197098,-5.163004e-08,-5.163004e-08
+3,gpt-4-turbo-2024-04-09,Turkish,4A-TR,26_TR-1,Nihal turtanın {CEVAP} içinde olduğuna inanıyor.,"dolabın, sepetin, çekmecenin",sepetin,2.0,-2.1147179837,-1.1446846772000001,-8.05551538,-1.1446846772000001
+3,gpt-4-turbo-2024-04-09,Turkish,4A-TR,27_TR,Nihal turtayı {CEVAP} içinde arayacak.,"dolabın, sepetin, çekmecenin",sepetin,2.0,-7.7220669654666665,-0.4062105746576333,-9.002165156666667,-0.4062105746576333
+3,gpt-4-turbo-2024-04-09,Turkish,4A-TR,28_TR-1,Burak turtanın {CEVAP} içinde olduğuna inanıyor.,"dolabın, sepetin, çekmecenin",sepetin,2.0,-8.07647581,-0.06441618437300001,-4.64534806,-0.06441618437300001
+3,gpt-4-turbo-2024-04-09,Turkish,4B-TR,29_TR-1,"Can, Gamzenin balon almak için {CEVAP} gittiğini düşünüyor.","parka, okula, alışveriş merkezine",parka,1.0,-6.16765221,-0.0139370883,-4.82957997,-6.16765221
+3,gpt-4-turbo-2024-04-09,Turkish,4B-TR,31_TR,"Can, baloncunun Gamze’ye nereye gittiğini söylediğini biliyor mu?","Evet, Hayır",Hayır,2.0,-7.622207713333333,-0.0024469898346666666,-18.694813866666667,-0.0024469898346666666
+3,gpt-4-turbo-2024-04-09,Turkish,4B-TR,32_TR,Baloncu aslında {CEVAP} bulunmaktadır.,"parkta, okulda, alışveriş merkezinde",alışveriş merkezinde,3.0,-13.037577583333332,-14.5754317,-3.829324416666666e-06,-3.829324416666666e-06
+3,gpt-4-turbo-2024-04-09,Turkish,4B-TR,33_TR-1,Gamze baloncunun {CEVAP} olduğunu düşünüyor.,"parkta, okulda, alışveriş merkezinde",okulda,2.0,-8.180418540000002,-0.001323040485,-9.06272285,-0.001323040485
+3,gpt-4-turbo-2024-04-09,Turkish,4B-TR,34_TR,Gamze'nin baloncuyu bulmak için gideceği yer {CEVAP}.,"park, okul, alışveriş merkezi",okul,2.0,-14.28150585,-0.00011276276865,-9.444269916666666,-0.00011276276865
+3,gpt-4-turbo-2024-04-09,Turkish,4B-TR,35_TR-1,Can baloncunun {CEVAP} olduğunu düşünüyor.,"parkta, okulda, alışveriş merkezinde",okulda,2.0,-3.092987784,-0.8342040745999999,-3.5556575699999997,-0.8342040745999999
+3,gpt-4-turbo-2024-04-09,Turkish-san,3A-TR,11_TR-3,"Ece, Selin'in kermesten {CEVAP} satın aldığını sanıyor.","çikolatalı kek, ballı çörek, tarçınlı kurabiye",ballı çörek,2.0,-0.0013239686150000002,-8.4086345,-7.113469620000001,-8.4086345
+3,gpt-4-turbo-2024-04-09,Turkish-san,3A-TR,14_TR-3,Okan kermeste {CEVAP} satıldığını sanıyor.,"çikolatalı kek, ballı çörek, tarçınlı kurabiye",ballı çörek,2.0,-12.3999897,-1.356826363e-05,-11.92918545,-1.356826363e-05
+3,gpt-4-turbo-2024-04-09,Turkish-san,3A-TR,9_TR-3,"Selin’e göre, Ece Selin’in {CEVAP} satın aldığını sanıyor.","çikolatalı kek, ballı çörek, tarçınlı kurabiye",çikolatalı kek,1.0,-0.0001262661599,-11.901421899999999,-9.591213400000001,-0.0001262661599
+3,gpt-4-turbo-2024-04-09,Turkish-san,3B-TR,15_TR-3,"Melis, annesinin ona doğum günü hediyesi olarak {CEVAP} aldığını sanıyor.","kedi, oyuncak",kedi,1.0,-0.2776231036,-2.049863194,-18.5094974,-0.2776231036
+3,gpt-4-turbo-2024-04-09,Turkish-san,3B-TR,18_TR-3,"Melis’in annesine göre, Melis doğum günü hediyesi olarak {CEVAP} alacağını sanıyor.","kedi, oyuncak",oyuncak,2.0,-12.5877674,-1.3377537823999999e-05,-19.960325,-1.3377537823999999e-05
+3,gpt-4-turbo-2024-04-09,Turkish-san,4A-TR,21_TR-3,"Burak, Nihal’in turtayı aramak için {CEVAP} içine bakacağını sanıyor.","dolabın, sepetin, çekmecenin",dolabın,1.0,-8.49239989,-0.000586695892,-8.38315326,-8.49239989
+3,gpt-4-turbo-2024-04-09,Turkish-san,4A-TR,26_TR-3,Nihal turtanın {CEVAP} içinde olduğunu sanıyor.,"dolabın, sepetin, çekmecenin",sepetin,2.0,-3.536932667,-0.12349462731000001,-7.44642297,-0.12349462731000001
+3,gpt-4-turbo-2024-04-09,Turkish-san,4A-TR,28_TR-3,Burak turtanın {CEVAP} içinde olduğunu sanıyor.,"dolabın, sepetin, çekmecenin",sepetin,2.0,-6.36140025,-0.06587509686,-3.1110300200000003,-0.06587509686
+3,gpt-4-turbo-2024-04-09,Turkish-san,4B-TR,29_TR-3,"Can, Gamzenin balon almak için {CEVAP} gittiğini sanıyor.","parka, okula, alışveriş merkezine",parka,1.0,-5.5764727700000005,-0.024273586200000002,-5.59994384,-5.5764727700000005
+3,gpt-4-turbo-2024-04-09,Turkish-san,4B-TR,33_TR-3,Gamze baloncunun {CEVAP} olduğunu sanıyor.,"parkta, okulda, alışveriş merkezinde",okulda,2.0,-5.250939074,-0.05634556598,-8.549484029999999,-0.05634556598
+3,gpt-4-turbo-2024-04-09,Turkish-san,4B-TR,35_TR-3,Can baloncunun {CEVAP} olduğunu sanıyor.,"parkta, okulda, alışveriş merkezinde",okulda,2.0,-0.21438996836,-4.3077535959999995,-4.01343174,-4.3077535959999995
+3,gpt-4-turbo-2024-04-09,Turkish-zan,3A-TR,11_TR-2,"Ece, Selin'in kermesten {CEVAP} satın aldığını zannediyor.","çikolatalı kek, ballı çörek, tarçınlı kurabiye",ballı çörek,2.0,-0.0011253860300000002,-9.1465038,-7.10697946,-9.1465038
+3,gpt-4-turbo-2024-04-09,Turkish-zan,3A-TR,14_TR-2,Okan kermeste {CEVAP} satıldığını zannediyor.,"çikolatalı kek, ballı çörek, tarçınlı kurabiye",ballı çörek,2.0,-12.03246085,-1.6107302050000002e-05,-12.37424505,-1.6107302050000002e-05
+3,gpt-4-turbo-2024-04-09,Turkish-zan,3A-TR,9_TR-2,"Selin’e göre, Ece Selin’in {CEVAP} satın aldığını zannediyor.","çikolatalı kek, ballı çörek, tarçınlı kurabiye",çikolatalı kek,1.0,-0.0001245283542,-11.86699095,-9.51671635,-0.0001245283542
+3,gpt-4-turbo-2024-04-09,Turkish-zan,3B-TR,15_TR-2,"Melis, annesinin ona doğum günü hediyesi olarak {CEVAP} aldığını zannediyor.","kedi, oyuncak",kedi,1.0,-0.020981339787,-5.16618484,-18.3021581,-0.020981339787
+3,gpt-4-turbo-2024-04-09,Turkish-zan,3B-TR,18_TR-2,"Melis’in annesine göre, Melis doğum günü hediyesi olarak {CEVAP} alacağını zannediyor.","kedi, oyuncak",oyuncak,2.0,-11.9699135,-8.10873585e-06,-19.1691088,-8.10873585e-06
+3,gpt-4-turbo-2024-04-09,Turkish-zan,4A-TR,21_TR-2,"Burak, Nihal’in turtayı aramak için {CEVAP} içine bakacağını zannediyor.","dolabın, sepetin, çekmecenin",dolabın,1.0,-9.3498021,-0.000385683613,-8.51399787,-9.3498021
+3,gpt-4-turbo-2024-04-09,Turkish-zan,4A-TR,26_TR-2,Nihal turtanın {CEVAP} içinde olduğunu zannediyor.,"dolabın, sepetin, çekmecenin",sepetin,2.0,-2.215194559,-0.60810757933,-7.24859235,-0.60810757933
+3,gpt-4-turbo-2024-04-09,Turkish-zan,4A-TR,28_TR-2,Burak turtanın {CEVAP} içinde olduğunu zannediyor.,"dolabın, sepetin, çekmecenin",sepetin,2.0,-6.51291365,-0.1106165542135,-4.01368877,-0.1106165542135
+3,gpt-4-turbo-2024-04-09,Turkish-zan,4B-TR,29_TR-2,"Can, Gamzenin balon almak için {CEVAP} gittiğini zannediyor.","parka, okula, alışveriş merkezine",parka,1.0,-7.05237225,-0.017685953100000002,-4.7468871,-7.05237225
+3,gpt-4-turbo-2024-04-09,Turkish-zan,4B-TR,33_TR-2,Gamze baloncunun {CEVAP} olduğunu zannediyor.,"parkta, okulda, alışveriş merkezinde",okulda,2.0,-6.86715132,-0.0033151509019999996,-8.70772339,-0.0033151509019999996
+3,gpt-4-turbo-2024-04-09,Turkish-zan,4B-TR,35_TR-2,Can baloncunun {CEVAP} olduğunu zannediyor.,"parkta, okulda, alışveriş merkezinde",okulda,2.0,-0.24643382996000002,-4.68608451,-3.2124589319999997,-4.68608451
